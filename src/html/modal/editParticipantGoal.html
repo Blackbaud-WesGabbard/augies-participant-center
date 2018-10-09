@@ -1,0 +1,37 @@
+<form ng-submit="updateGoal('Participant')">
+  <div class="modal-header">
+    <h2 class="modal-title">
+      <span translate="goal_edit_goal"></span>
+    </h2>
+  </div>
+  <div class="modal-body">
+    <div uib-alert class="alert-success" ng-if="editGoalOptions.updateGoalSuccess" dismiss-on-timeout="5000" close="closeGoalAlerts(true)">
+      <span translate="personal_goal_update_success"></span>
+    </div>
+    <div uib-alert class="alert-danger" ng-if="editGoalOptions.updateGoalFailure" dismiss-on-timeout="5000" close="closeGoalAlerts(false)">
+      {{editGoalOptions.updateGoalFailureMessage}}
+    </div>
+    <div class="form-group">
+      <label for="goal" class="sr-only"><span translate="goal_goal"></span></label>
+      <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="number" id="goal" class="form-control" ng-model="editGoalOptions.updateGoalInput" aria-label="{{ 'goal_goal' | translate }}" min="0" required>
+        <span class="input-group-addon">.00</span>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <div class="clearfix">
+      <div class="pull-left">
+        <button type="button" class="btn btn-default" ng-click="cancelEditGoal()">
+          <span translate="class_cancel_link"></span>
+        </button>
+      </div>
+      <div class="pull-right">
+        <button type="submit" class="btn btn-primary">
+          <span translate="dialog_save_label"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+<form>

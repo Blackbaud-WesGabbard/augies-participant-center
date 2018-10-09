@@ -1,0 +1,38 @@
+<div class="modal-header">
+  <h2 class="modal-title">
+    <span translate="contacts_add_to_group"></span>
+  </h2>
+</div>
+<form ng-submit="confirmAddContactsToGroup()">
+  <div class="modal-body">
+    <div uib-alert class="alert-danger" ng-if="addContactGroupForm.errorMsg">
+      {{addContactGroupForm.errorMsg}}
+    </div>
+    <div class="form-group">
+      <select class="form-control" ng-model="addContactGroupForm.groupId">
+        <option value="" translate="contacts_select_label"></option>
+        <option ng-repeat="group in addressBookGroups" value="{{group.id}}">
+          {{group.name}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="add_new_group_name"><span translate="contacts_create_a_new_group"></span></label>
+      <input type="text" class="form-control" ng-model="addContactGroupForm.groupName">
+    </div>
+  </div>
+  <div class="modal-footer">
+    <div class="clearfix">
+      <div class="pull-left">
+        <button type="button" class="btn btn-primary-inverted text-uppercase" ng-click="cancelAddContactsToGroup()">
+          <span translate="class_cancel_link"></span>
+        </button>
+      </div>
+      <div class="pull-right">
+        <button type="submit" class="btn btn-primary text-uppercase">
+          <span translate="contacts_add_to_group_button"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</form>

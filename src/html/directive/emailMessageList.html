@@ -1,0 +1,20 @@
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="message in messages">
+    <div class="clearfix">
+      <div class="pull-right">
+        <a ng-click="deleteMessage(message.message_id)">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a>
+      </div>
+      <div class="pull-left">
+        <!-- TODO: date -->
+        <a ng-click="selectMessage(message.message_id)">
+          {{message.subject}}
+        </a>
+        <span ng-if="!selectMessage">
+          {{message.subject}}
+        </span>
+      </div>
+    </div>
+  </li>
+</ul>

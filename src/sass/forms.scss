@@ -1,0 +1,53 @@
+.ng-pc-container,
+.ng-pc-modal {
+  .form-group,
+  .list-group-item {
+    .checkbox {
+      margin: 0;
+    }
+
+    label {
+      white-space: normal;
+    }
+  }
+  
+  textarea {
+    resize: none;
+  }
+
+  .stationery-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    h5 {
+      padding-top: 0px;
+    }
+
+    .stationery-option {
+      width: 100%;
+      min-height: 150px;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #FFFFFF;
+      border-radius: 4px;
+
+      &.stationery-selected {
+        border: 1px solid #66AFEA;
+      }
+      .stationery-input {
+        display: none;
+      }
+      .stationery-image {
+        clear: both;
+        max-width: 80%;
+      }
+      .stationery-name {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+}

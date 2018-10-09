@@ -1,0 +1,24 @@
+<form ng-submit="confirmDeleteMessage()">
+  <div class="modal-header">
+    <h2 class="modal-title">
+      <span translate="drafts_confirm_delete_header"></span>
+    </h2>
+  </div>
+  <div class="modal-body">
+    <span translate="drafts_confirm_delete_body"></span>
+  </div>
+  <div class="modal-footer">
+    <div class="clearfix">
+      <div class="pull-left">
+        <button type="button" class="btn btn-primary-inverted text-uppercase" ng-click="cancelDeleteMessage()">
+          <span translate="class_cancel_link"></span>
+        </button>
+      </div>
+      <div class="pull-right">
+        <button type="submit" class="btn btn-primary text-uppercase">
+          <span translate="compose_delete_button_label"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</form>

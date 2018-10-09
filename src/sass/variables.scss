@@ -1,0 +1,18 @@
+$brand-primary: darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success: #5cb85c !default;
+
+$link-color: $brand-primary !default;
+
+$btn-primary-color: #ffffff !default;
+$btn-primary-bg: $brand-primary !default;
+$btn-primary-border: darken($btn-primary-bg, 5%) !default;
+
+$btn-success-color: #ffffff !default;
+$btn-success-bg: $brand-success !default;
+$btn-success-border: darken($btn-success-bg, 5%) !default;
+
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+
+$screen-md: 992px !default;
+$screen-md-min: $screen-md !default;

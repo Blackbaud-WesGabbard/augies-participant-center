@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Import Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+    </style>
+    
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/luminateExtend/1.7.1/luminateExtend.min.js"></script>
+  </head>
+  <body>
+    <p><img src="../../../../images/indicator.gif" alt=""> Loading, please wait...</p>
+    <a id="redirect-shim" href="#"></a>
+    
+    <script>
+      luminateExtend({
+        apiKey: window.opener.luminateExtend.global.apiKey, 
+        path: window.opener.luminateExtend.global.path
+      });
+      
+      var currentUrl = window.location.href, 
+      getQueryParameter = function(paramName) {
+        return currentUrl.split(paramName + '=')[1].split('&')[0];
+      }, 
+      doRedirect = function(redirectUrl) {
+        document.getElementById('redirect-shim').href = redirectUrl;
+        document.getElementById('redirect-shim').click();
+      };
+      
+      luminateExtend.api({
+        api: 'addressbook', 
+        useHTTPS: true, 
+        requiresAuth: true, 
+        data: 'method=startOnlineAddressBookImport' + 
+              '&import_source=' + getQueryParameter('import_source') + 
+              '&callback_url=' + currentUrl.replace('address-book-import.html', 'address-book-import-callback.html').split('?')[0], 
+        callback: {
+          error: function(response) {
+          },
+          success: function(response) {
+            doRedirect(response.startOnlineAddressBookImportResponse.oauthUrl);
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

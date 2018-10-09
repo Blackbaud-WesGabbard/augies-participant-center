@@ -1,0 +1,6 @@
+<div class="input-group">
+  <input type="text" class="formly-field-date form-control" ng-model="model[options.key]" uib-datepicker-popup="{{to.dateOptions.format}}" popup-placement="auto bottom-right" is-open="datepicker.opened" datepicker-options="to.dateOptions" alt-input-formats="to.dateAltFormats">
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default" ng-click="datepicker.open($event)" ng-disabled="to.disabled"><i class="glyphicon glyphicon-calendar"></i></button>
+  </span>
+</div>

@@ -1,0 +1,32 @@
+.ng-pc-container {
+  .nav-pills, 
+  .nav-tabs {
+    margin-bottom: 20px;
+
+    & > li {
+      padding-bottom: 0;
+
+      & > a {
+        &,
+        &:link,
+        &:visited {
+          background: none;
+          color: #999999;
+          font-size: 1em;
+          font-weight: normal;
+        }
+      }
+      &.active > a {
+        &,
+        &:hover,
+        &:focus,
+        &:link,
+        &:visited {
+          background-color: $brand-primary;
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

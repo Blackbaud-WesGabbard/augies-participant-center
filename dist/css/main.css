@@ -1,0 +1,2665 @@
+.ng-pc-container p,
+.ng-pc-container ol,
+.ng-pc-container ul,
+.ng-pc-container li,
+.ng-pc-container table,
+.ng-pc-container tr,
+.ng-pc-container th,
+.ng-pc-container td,
+.ng-pc-container .Explicit {
+  font-family: inherit;
+  font-size: inherit; }
+
+.ng-pc-container a:link {
+  color: #337ab7; }
+  .ng-pc-container a:link.help-link {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: smaller;
+    text-decoration: underline; }
+
+.ng-pc-container .form-group .checkbox,
+.ng-pc-container .list-group-item .checkbox,
+.ng-pc-modal .form-group .checkbox,
+.ng-pc-modal .list-group-item .checkbox {
+  margin: 0; }
+
+.ng-pc-container .form-group label,
+.ng-pc-container .list-group-item label,
+.ng-pc-modal .form-group label,
+.ng-pc-modal .list-group-item label {
+  white-space: normal; }
+
+.ng-pc-container textarea,
+.ng-pc-modal textarea {
+  resize: none; }
+
+.ng-pc-container .stationery-select,
+.ng-pc-modal .stationery-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+  .ng-pc-container .stationery-select h5,
+  .ng-pc-modal .stationery-select h5 {
+    padding-top: 0px; }
+  .ng-pc-container .stationery-select .stationery-option,
+  .ng-pc-modal .stationery-select .stationery-option {
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px; }
+    .ng-pc-container .stationery-select .stationery-option.stationery-selected,
+    .ng-pc-modal .stationery-select .stationery-option.stationery-selected {
+      border: 1px solid #66AFEA; }
+    .ng-pc-container .stationery-select .stationery-option .stationery-input,
+    .ng-pc-modal .stationery-select .stationery-option .stationery-input {
+      display: none; }
+    .ng-pc-container .stationery-select .stationery-option .stationery-image,
+    .ng-pc-modal .stationery-select .stationery-option .stationery-image {
+      clear: both;
+      max-width: 80%; }
+    .ng-pc-container .stationery-select .stationery-option .stationery-name,
+    .ng-pc-modal .stationery-select .stationery-option .stationery-name {
+      display: inline-block;
+      width: 100%;
+      text-align: center; }
+
+.ng-pc-container .btn, .ng-pc-container .btn:link, .ng-pc-container .btn:visited,
+.ng-pc-container a.btn,
+.ng-pc-container a.btn:link,
+.ng-pc-container a.btn:visited,
+.ng-pc-modal .btn,
+.ng-pc-modal .btn:link,
+.ng-pc-modal .btn:visited,
+.ng-pc-modal a.btn,
+.ng-pc-modal a.btn:link,
+.ng-pc-modal a.btn:visited {
+  background: none;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 12px; }
+
+.ng-pc-container .btn-primary, .ng-pc-container .btn-primary:link,
+.ng-pc-container a.btn-primary,
+.ng-pc-container a.btn-primary:link,
+.ng-pc-modal .btn-primary,
+.ng-pc-modal .btn-primary:link,
+.ng-pc-modal a.btn-primary,
+.ng-pc-modal a.btn-primary:link {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4; }
+
+.ng-pc-container .btn-primary:focus,
+.ng-pc-container a.btn-primary:focus,
+.ng-pc-modal .btn-primary:focus,
+.ng-pc-modal a.btn-primary:focus {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #122b40; }
+
+.ng-pc-container .btn-primary:hover,
+.ng-pc-container a.btn-primary:hover,
+.ng-pc-modal .btn-primary:hover,
+.ng-pc-modal a.btn-primary:hover {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74; }
+
+.ng-pc-container .btn-primary:active,
+.ng-pc-container a.btn-primary:active,
+.ng-pc-modal .btn-primary:active,
+.ng-pc-modal a.btn-primary:active {
+  color: #ffffff;
+  background-color: #286090;
+  background-image: none;
+  border-color: #204d74; }
+  .ng-pc-container .btn-primary:active:hover, .ng-pc-container .btn-primary:active:focus,
+  .ng-pc-container a.btn-primary:active:hover,
+  .ng-pc-container a.btn-primary:active:focus,
+  .ng-pc-modal .btn-primary:active:hover,
+  .ng-pc-modal .btn-primary:active:focus,
+  .ng-pc-modal a.btn-primary:active:hover,
+  .ng-pc-modal a.btn-primary:active:focus {
+    color: #ffffff;
+    background-color: #204d74;
+    border-color: #122b40; }
+
+.ng-pc-container .btn-primary[disabled]:hover, .ng-pc-container .btn-primary[disabled]:focus,
+fieldset[disabled] .ng-pc-container .btn-primary:hover,
+fieldset[disabled] .ng-pc-container .btn-primary:focus,
+.ng-pc-container a.btn-primary[disabled]:hover,
+.ng-pc-container a.btn-primary[disabled]:focus,
+fieldset[disabled]
+.ng-pc-container a.btn-primary:hover,
+fieldset[disabled]
+.ng-pc-container a.btn-primary:focus,
+.ng-pc-modal .btn-primary[disabled]:hover,
+.ng-pc-modal .btn-primary[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal .btn-primary:hover,
+fieldset[disabled]
+.ng-pc-modal .btn-primary:focus,
+.ng-pc-modal a.btn-primary[disabled]:hover,
+.ng-pc-modal a.btn-primary[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal a.btn-primary:hover,
+fieldset[disabled]
+.ng-pc-modal a.btn-primary:focus {
+  background-color: #337ab7;
+  border-color: #2e6da4; }
+
+.ng-pc-container .btn-primary-inverted, .ng-pc-container .btn-primary-inverted:link,
+.ng-pc-container a.btn-primary-inverted,
+.ng-pc-container a.btn-primary-inverted:link,
+.ng-pc-modal .btn-primary-inverted,
+.ng-pc-modal .btn-primary-inverted:link,
+.ng-pc-modal a.btn-primary-inverted,
+.ng-pc-modal a.btn-primary-inverted:link {
+  color: #337ab7;
+  background-color: transparent;
+  border-color: #2e6da4; }
+
+.ng-pc-container .btn-primary-inverted:focus,
+.ng-pc-container a.btn-primary-inverted:focus,
+.ng-pc-modal .btn-primary-inverted:focus,
+.ng-pc-modal a.btn-primary-inverted:focus {
+  color: #337ab7;
+  background-color: transparent;
+  border-color: #122b40; }
+
+.ng-pc-container .btn-primary-inverted:hover,
+.ng-pc-container a.btn-primary-inverted:hover,
+.ng-pc-modal .btn-primary-inverted:hover,
+.ng-pc-modal a.btn-primary-inverted:hover {
+  color: #337ab7;
+  background-color: transparent;
+  border-color: #204d74; }
+
+.ng-pc-container .btn-primary-inverted:active,
+.ng-pc-container a.btn-primary-inverted:active,
+.ng-pc-modal .btn-primary-inverted:active,
+.ng-pc-modal a.btn-primary-inverted:active {
+  color: #337ab7;
+  background-color: transparent;
+  background-image: none;
+  border-color: #204d74; }
+  .ng-pc-container .btn-primary-inverted:active:hover, .ng-pc-container .btn-primary-inverted:active:focus,
+  .ng-pc-container a.btn-primary-inverted:active:hover,
+  .ng-pc-container a.btn-primary-inverted:active:focus,
+  .ng-pc-modal .btn-primary-inverted:active:hover,
+  .ng-pc-modal .btn-primary-inverted:active:focus,
+  .ng-pc-modal a.btn-primary-inverted:active:hover,
+  .ng-pc-modal a.btn-primary-inverted:active:focus {
+    color: #337ab7;
+    background-color: transparent;
+    border-color: #122b40; }
+
+.ng-pc-container .btn-primary-inverted[disabled]:hover, .ng-pc-container .btn-primary-inverted[disabled]:focus,
+fieldset[disabled] .ng-pc-container .btn-primary-inverted:hover,
+fieldset[disabled] .ng-pc-container .btn-primary-inverted:focus,
+.ng-pc-container a.btn-primary-inverted[disabled]:hover,
+.ng-pc-container a.btn-primary-inverted[disabled]:focus,
+fieldset[disabled]
+.ng-pc-container a.btn-primary-inverted:hover,
+fieldset[disabled]
+.ng-pc-container a.btn-primary-inverted:focus,
+.ng-pc-modal .btn-primary-inverted[disabled]:hover,
+.ng-pc-modal .btn-primary-inverted[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal .btn-primary-inverted:hover,
+fieldset[disabled]
+.ng-pc-modal .btn-primary-inverted:focus,
+.ng-pc-modal a.btn-primary-inverted[disabled]:hover,
+.ng-pc-modal a.btn-primary-inverted[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal a.btn-primary-inverted:hover,
+fieldset[disabled]
+.ng-pc-modal a.btn-primary-inverted:focus {
+  background-color: transparent;
+  border-color: #2e6da4; }
+
+.ng-pc-container .btn-success, .ng-pc-container .btn-success:link,
+.ng-pc-container a.btn-success,
+.ng-pc-container a.btn-success:link,
+.ng-pc-modal .btn-success,
+.ng-pc-modal .btn-success:link,
+.ng-pc-modal a.btn-success,
+.ng-pc-modal a.btn-success:link {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c; }
+
+.ng-pc-container .btn-success:focus,
+.ng-pc-container a.btn-success:focus,
+.ng-pc-modal .btn-success:focus,
+.ng-pc-modal a.btn-success:focus {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #255625; }
+
+.ng-pc-container .btn-success:hover,
+.ng-pc-container a.btn-success:hover,
+.ng-pc-modal .btn-success:hover,
+.ng-pc-modal a.btn-success:hover {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439; }
+
+.ng-pc-container .btn-success:active,
+.ng-pc-container a.btn-success:active,
+.ng-pc-modal .btn-success:active,
+.ng-pc-modal a.btn-success:active {
+  color: #ffffff;
+  background-color: #449d44;
+  background-image: none;
+  border-color: #398439; }
+  .ng-pc-container .btn-success:active:hover, .ng-pc-container .btn-success:active:focus,
+  .ng-pc-container a.btn-success:active:hover,
+  .ng-pc-container a.btn-success:active:focus,
+  .ng-pc-modal .btn-success:active:hover,
+  .ng-pc-modal .btn-success:active:focus,
+  .ng-pc-modal a.btn-success:active:hover,
+  .ng-pc-modal a.btn-success:active:focus {
+    color: #ffffff;
+    background-color: #398439;
+    border-color: #255625; }
+
+.ng-pc-container .btn-success[disabled]:hover, .ng-pc-container .btn-success[disabled]:focus,
+fieldset[disabled] .ng-pc-container .btn-success:hover,
+fieldset[disabled] .ng-pc-container .btn-success:focus,
+.ng-pc-container a.btn-success[disabled]:hover,
+.ng-pc-container a.btn-success[disabled]:focus,
+fieldset[disabled]
+.ng-pc-container a.btn-success:hover,
+fieldset[disabled]
+.ng-pc-container a.btn-success:focus,
+.ng-pc-modal .btn-success[disabled]:hover,
+.ng-pc-modal .btn-success[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal .btn-success:hover,
+fieldset[disabled]
+.ng-pc-modal .btn-success:focus,
+.ng-pc-modal a.btn-success[disabled]:hover,
+.ng-pc-modal a.btn-success[disabled]:focus,
+fieldset[disabled]
+.ng-pc-modal a.btn-success:hover,
+fieldset[disabled]
+.ng-pc-modal a.btn-success:focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c; }
+
+.ng-pc-nav-btn-group {
+  text-align: left;
+  width: 100%;
+  margin: 0 0 12px; }
+  .ng-pc-nav-btn-group > .btn {
+    text-align: left; }
+    .ng-pc-nav-btn-group > .btn .caret {
+      margin-left: 8px; }
+  .ng-pc-nav-btn-group.open > .dropdown-menu {
+    width: 100%; }
+  .ng-pc-nav-btn-group .dropdown-menu > li > a .badge {
+    float: right; }
+
+.ng-pc-container .nav-pills,
+.ng-pc-container .nav-tabs {
+  margin-bottom: 20px; }
+  .ng-pc-container .nav-pills > li,
+  .ng-pc-container .nav-tabs > li {
+    padding-bottom: 0; }
+    .ng-pc-container .nav-pills > li > a, .ng-pc-container .nav-pills > li > a:link, .ng-pc-container .nav-pills > li > a:visited,
+    .ng-pc-container .nav-tabs > li > a,
+    .ng-pc-container .nav-tabs > li > a:link,
+    .ng-pc-container .nav-tabs > li > a:visited {
+      background: none;
+      color: #999999;
+      font-size: 1em;
+      font-weight: normal; }
+    .ng-pc-container .nav-pills > li.active > a, .ng-pc-container .nav-pills > li.active > a:hover, .ng-pc-container .nav-pills > li.active > a:focus, .ng-pc-container .nav-pills > li.active > a:link, .ng-pc-container .nav-pills > li.active > a:visited,
+    .ng-pc-container .nav-tabs > li.active > a,
+    .ng-pc-container .nav-tabs > li.active > a:hover,
+    .ng-pc-container .nav-tabs > li.active > a:focus,
+    .ng-pc-container .nav-tabs > li.active > a:link,
+    .ng-pc-container .nav-tabs > li.active > a:visited {
+      background-color: #337ab7;
+      color: #fff;
+      font-weight: 600; }
+
+.ng-pc-container .panel-pagination, .ng-pc-modal .panel-pagination {
+  text-align: center;
+  height: 36px; }
+  .ng-pc-container .panel-pagination .pagination, .ng-pc-modal .panel-pagination .pagination {
+    margin: 0; }
+  .ng-pc-container .panel-pagination .num-per-page-select-container, .ng-pc-modal .panel-pagination .num-per-page-select-container {
+    float: right; }
+    .ng-pc-container .panel-pagination .num-per-page-select-container .num-per-page-select-label, .ng-pc-modal .panel-pagination .num-per-page-select-container .num-per-page-select-label {
+      margin-right: 5px; }
+    .ng-pc-container .panel-pagination .num-per-page-select-container .num-per-page-select, .ng-pc-modal .panel-pagination .num-per-page-select-container .num-per-page-select {
+      position: relative;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: #337ab7;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      height: 36px; }
+
+.ng-pc-container .pagination > .disabled > a, .ng-pc-container .pagination > .disabled > a:link, .ng-pc-container .pagination > .disabled > a:hover, .ng-pc-container .pagination > .disabled > a:focus, .ng-pc-modal .pagination > .disabled > a, .ng-pc-modal .pagination > .disabled > a:link, .ng-pc-modal .pagination > .disabled > a:hover, .ng-pc-modal .pagination > .disabled > a:focus {
+  color: #777777; }
+
+.ng-pc-container .pagination > .active > a, .ng-pc-container .pagination > .active > a:link, .ng-pc-container .pagination > .active > a:hover, .ng-pc-container .pagination > .active > a:focus, .ng-pc-modal .pagination > .active > a, .ng-pc-modal .pagination > .active > a:link, .ng-pc-modal .pagination > .active > a:hover, .ng-pc-modal .pagination > .active > a:focus {
+  color: #ffffff; }
+
+.ng-pc-container .media-left .media-object {
+  max-width: 75px; }
+  @media (min-width: 360px) {
+    .ng-pc-container .media-left .media-object {
+      max-width: 100px; } }
+  @media (min-width: 992px) {
+    .ng-pc-container .media-left .media-object {
+      max-width: 150px; } }
+
+.ng-pc-container .media-heading {
+  font-size: 18px; }
+
+.ng-pc-container ul,
+.ng-pc-modal ul {
+  margin-left: 0; }
+
+.ng-pc-container .list-group-item-heading,
+.ng-pc-modal .list-group-item-heading {
+  font-size: 18px; }
+
+.ng-pc-container .list-group-item,
+.ng-pc-modal .list-group-item {
+  padding: 15px; }
+  .ng-pc-container .list-group-item .checkbox,
+  .ng-pc-modal .list-group-item .checkbox {
+    margin: 0; }
+  .ng-pc-container .list-group-item .badge,
+  .ng-pc-modal .list-group-item .badge {
+    border-radius: 3px; }
+
+.ng-pc-container a.list-group-item:not(.active), .ng-pc-container a.list-group-item:not(.active):link,
+.ng-pc-modal a.list-group-item:not(.active),
+.ng-pc-modal a.list-group-item:not(.active):link {
+  color: #555555; }
+  .ng-pc-container a.list-group-item:not(.active) .badge, .ng-pc-container a.list-group-item:not(.active):link .badge,
+  .ng-pc-modal a.list-group-item:not(.active) .badge,
+  .ng-pc-modal a.list-group-item:not(.active):link .badge {
+    color: #ffffff; }
+
+.ng-pc-nav-list-group .list-group-item-heading {
+  padding: 10px;
+  margin: 0; }
+
+.ng-pc-nav-list-group .list-group-item {
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0; }
+  .ng-pc-nav-list-group .list-group-item:first-child {
+    border-top: 0;
+    border-radius: 0; }
+  .ng-pc-nav-list-group .list-group-item:last-child {
+    border-radius: 0; }
+
+.btn + .ng-pc-nav-list-group {
+  margin: 12px 0 0; }
+
+.ng-pc-nav-list-group + .ng-pc-nav-list-group {
+  margin: 12px 0 0; }
+
+.ng-pc-container .panel-heading, .ng-pc-modal .panel-heading {
+  position: relative; }
+  .ng-pc-container .panel-heading .btn.panel-heading-btn,
+  .ng-pc-container .panel-heading a.btn.panel-heading-btn,
+  .ng-pc-container .panel-heading a.btn.panel-heading-btn:link, .ng-pc-modal .panel-heading .btn.panel-heading-btn,
+  .ng-pc-modal .panel-heading a.btn.panel-heading-btn,
+  .ng-pc-modal .panel-heading a.btn.panel-heading-btn:link {
+    float: right;
+    position: relative;
+    top: -4px;
+    right: -16px;
+    margin-right: 6px;
+    font-size: 13px;
+    line-height: 13px;
+    height: 28px; }
+    .ng-pc-container .panel-heading .btn.panel-heading-btn span.glyphicon,
+    .ng-pc-container .panel-heading a.btn.panel-heading-btn span.glyphicon,
+    .ng-pc-container .panel-heading a.btn.panel-heading-btn:link span.glyphicon, .ng-pc-modal .panel-heading .btn.panel-heading-btn span.glyphicon,
+    .ng-pc-modal .panel-heading a.btn.panel-heading-btn span.glyphicon,
+    .ng-pc-modal .panel-heading a.btn.panel-heading-btn:link span.glyphicon {
+      font-size: inherit;
+      line-height: inherit; }
+
+.ng-pc-container .panel-title, .ng-pc-modal .panel-title {
+  font-size: 18px; }
+  .ng-pc-container .panel-title .panel-title-checkbox, .ng-pc-modal .panel-title .panel-title-checkbox {
+    font-size: 14px; }
+
+.ng-pc-modal .modal-header__btns {
+  float: right; }
+  .ng-pc-modal .modal-header__btns .btn {
+    margin: 0 0 0 6px; }
+
+@media (max-width: 359px) {
+  .ng-pc-modal .modal-header__btns--block-xxs {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0 0 18px 0; }
+    .ng-pc-modal .modal-header__btns--block-xxs .btn {
+      margin: 0 3px; } }
+
+.ta-toolbar {
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 4px 4px 0 0;
+  padding: 10px;
+  margin-left: 0; }
+
+.ta-editor {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 10px; }
+  .ta-editor [contenteditable]:focus {
+    outline: 0; }
+
+.ta-scroll-window > .ta-bind {
+  min-height: 200px;
+  padding: 6px 8px; }
+
+.ng-pc-container .contacts-list__actions,
+.ng-pc-modal .contacts-list__actions {
+  margin: 0 0 5px; }
+  .ng-pc-container .contacts-list__actions .contacts-list__actions-selected,
+  .ng-pc-modal .contacts-list__actions .contacts-list__actions-selected {
+    float: left; }
+    .ng-pc-container .contacts-list__actions .contacts-list__actions-selected .btn,
+    .ng-pc-modal .contacts-list__actions .contacts-list__actions-selected .btn {
+      padding: 10px;
+      margin: 0 6px 10px 0; }
+  .ng-pc-container .contacts-list__actions .contacts-list__actions-manage,
+  .ng-pc-modal .contacts-list__actions .contacts-list__actions-manage {
+    float: right; }
+    .ng-pc-container .contacts-list__actions .contacts-list__actions-manage .btn,
+    .ng-pc-modal .contacts-list__actions .contacts-list__actions-manage .btn {
+      padding: 10px;
+      margin: 0 0 10px 6px; }
+
+.ng-pc-container .import-contacts__list-wrap,
+.ng-pc-modal .import-contacts__list-wrap {
+  max-height: 250px;
+  overflow-y: scroll; }
+  .ng-pc-container .import-contacts__list-wrap .list-group-item,
+  .ng-pc-modal .import-contacts__list-wrap .list-group-item {
+    border-radius: 0; }
+    .ng-pc-container .import-contacts__list-wrap .list-group-item .checkbox,
+    .ng-pc-modal .import-contacts__list-wrap .list-group-item .checkbox {
+      margin: 0; }
+
+.ng-pc-container .contact-edit-link,
+.ng-pc-modal .contact-edit-link {
+  float: right; }
+
+.ng-pc-container .contact-details .contact-details-row,
+.ng-pc-modal .contact-details .contact-details-row {
+  width: 100%; }
+
+.ng-pc-container .contact-stats .contact-stats-label,
+.ng-pc-container .contact-stats .contact-stats-value,
+.ng-pc-container .contact-stats .contact-stats-date,
+.ng-pc-modal .contact-stats .contact-stats-label,
+.ng-pc-modal .contact-stats .contact-stats-value,
+.ng-pc-modal .contact-stats .contact-stats-date {
+  width: 100%;
+  text-align: center; }
+
+.ng-pc-container .contact-stats .contact-stats-donations,
+.ng-pc-modal .contact-stats .contact-stats-donations {
+  width: 100%; }
+  .ng-pc-container .contact-stats .contact-stats-donations .contact-stats-amount-raised,
+  .ng-pc-container .contact-stats .contact-stats-donations .contact-stats-previous-amount-raised,
+  .ng-pc-container .contact-stats .contact-stats-donations .contact-stats-acknowledged,
+  .ng-pc-modal .contact-stats .contact-stats-donations .contact-stats-amount-raised,
+  .ng-pc-modal .contact-stats .contact-stats-donations .contact-stats-previous-amount-raised,
+  .ng-pc-modal .contact-stats .contact-stats-donations .contact-stats-acknowledged {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%; }
+
+.ng-pc-container .contact-stats .contact-stats-emails,
+.ng-pc-modal .contact-stats .contact-stats-emails {
+  width: 100%; }
+  .ng-pc-container .contact-stats .contact-stats-emails .contact-stats-messages-sent,
+  .ng-pc-container .contact-stats .contact-stats-emails .contact-stats-messages-opened,
+  .ng-pc-container .contact-stats .contact-stats-emails .contact-stats-page-visits,
+  .ng-pc-modal .contact-stats .contact-stats-emails .contact-stats-messages-sent,
+  .ng-pc-modal .contact-stats .contact-stats-emails .contact-stats-messages-opened,
+  .ng-pc-modal .contact-stats .contact-stats-emails .contact-stats-page-visits {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%; }
+
+.ng-pc-container .form-contact-search,
+.ng-pc-modal .form-contact-search {
+  margin-bottom: 0;
+  position: relative;
+  top: -5px;
+  float: right; }
+  .ng-pc-container .form-contact-search .input-group .form-control.input-contact-search,
+  .ng-pc-modal .form-contact-search .input-group .form-control.input-contact-search {
+    font-size: 13px;
+    line-height: 13px;
+    height: auto; }
+  .ng-pc-container .form-contact-search .input-group .input-group-btn .btn.btn-contact-search,
+  .ng-pc-modal .form-contact-search .input-group .input-group-btn .btn.btn-contact-search {
+    font-size: 13px;
+    line-height: 13px;
+    border: 1px solid #d9d6cf;
+    height: 29px; }
+
+.ng-pc-container .what-next-list .what-next-icon, .ng-pc-container .what-next-list .what-next-message-container {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer; }
+
+.ng-pc-container .what-next-list .what-next-icon {
+  max-width: 10%; }
+
+.ng-pc-container .what-next-list .what-next-message-container {
+  max-width: 86%;
+  margin-left: 10px; }
+  .ng-pc-container .what-next-list .what-next-message-container .what-next-header {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding-bottom: 5px;
+    display: block; }
+  .ng-pc-container .what-next-list .what-next-message-container .what-next-message {
+    display: block; }
+
+.ng-pc-container .list-group-item .gift-data {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left; }
+
+.ng-pc-container .list-group-item .gift-donor-name {
+  width: 50%; }
+
+.ng-pc-container .list-group-item .gift-donor-date,
+.ng-pc-container .list-group-item .gift-donor-amount {
+  width: 20%;
+  text-align: center; }
+
+.ng-pc-container .list-group-item .gift-donor-action {
+  width: 10%;
+  text-align: right; }
+  .ng-pc-container .list-group-item .gift-donor-action .icon-btn {
+    padding-left: 2px; }
+
+.ng-pc-container .list-group-item .gift-donor-note {
+  width: 100%; }
+
+.ng-pc-container .list-group.team-search-results .list-group-item.team-search-result-row div.team-search-result-info {
+  width: 80%;
+  display: inline-block; }
+
+.ng-pc-container .list-group.team-search-results .list-group-item.team-search-result-row button.join-team-button {
+  float: right; }
+
+.ng-pc-container .janrain_native-googleplusButton, .ng-pc-container .janrain_native-facebookButton, .ng-pc-container .janrain_facebookButton, .ng-pc-container .janrain_native-redditButton, .ng-pc-container .janrain_native-tumblrButton, .ng-pc-container .janrain_native-twitterButton, .ng-pc-container .janrain_twitterButton, .ng-pc-container .janrain_native-pinterestButton, .ng-pc-container .sms {
+  color: #fff !important; }
+
+.ng-pc-container .janrainSocialRoot {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  position: relative;
+  display: inline-block; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal {
+  height: 32px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal {
+  height: 42px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical {
+  height: 84px; }
+
+.ng-pc-container .janrainSocialRoot input,
+.ng-pc-container .janrainSocialRoot textarea,
+.ng-pc-container .janrainSocialRoot button {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif; }
+
+.ng-pc-container .janrainSocialRoot input,
+.ng-pc-container .janrainSocialRoot textarea {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  border: 1px solid #dcdcdc;
+  background: #f0f0f0;
+  border-radius: 3px; }
+
+.ng-pc-container .janrainSocialRoot textarea {
+  resize: vertical; }
+
+.ng-pc-container .janrainSocialRoot div,
+.ng-pc-container .janrainSocialRoot span,
+.ng-pc-container .janrainSocialRoot input,
+.ng-pc-container .janrainSocialRoot textarea,
+.ng-pc-container .janrainSocialRoot a {
+  font-size: 1.5rem; }
+
+.ng-pc-container .janrainSocialRoot button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.ng-pc-container .janrainSocialRoot input:focus,
+.ng-pc-container .janrainSocialRoot input:invalid,
+.ng-pc-container .janrainSocialRoot textarea:focus {
+  border: 1px solid #85ceec;
+  background: #ddf1fa !important;
+  box-shadow: 0 0 2px #85ceec; }
+
+.ng-pc-container .janrainSocialRoot a:focus {
+  box-shadow: 0 0 1px 2px #85ceec; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare:focus {
+  border: 1px solid #85ceec; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare:focus span {
+  text-decoration: underline; }
+
+.ng-pc-container .janrainSocialRoot a:focus,
+.ng-pc-container .janrainSocialRoot input:focus,
+.ng-pc-container .janrainSocialRoot textarea:focus,
+.ng-pc-container .janrainSocialRoot button:focus,
+.ng-pc-container .janrainSocialRoot button.currentProviderShowing {
+  outline: none;
+  -webkit-appearance: none; }
+
+.ng-pc-container .janrainSocialRoot a:focus.janrainProvider,
+.ng-pc-container .janrainSocialRoot input:focus.janrainProvider,
+.ng-pc-container .janrainSocialRoot textarea:focus.janrainProvider,
+.ng-pc-container .janrainSocialRoot button:focus.janrainProvider,
+.ng-pc-container .janrainSocialRoot button.currentProviderShowing.janrainProvider {
+  border: 1px solid rgba(255, 255, 255, 0.6); }
+
+.ng-pc-container .janrainSocialRoot a:focus.janrainProvider img,
+.ng-pc-container .janrainSocialRoot input:focus.janrainProvider img,
+.ng-pc-container .janrainSocialRoot textarea:focus.janrainProvider img,
+.ng-pc-container .janrainSocialRoot button:focus.janrainProvider img,
+.ng-pc-container .janrainSocialRoot button.currentProviderShowing.janrainProvider img {
+  width: 30px;
+  height: 30px; }
+
+.ng-pc-container .janrain_emailButton {
+  background: #009DDC; }
+
+.ng-pc-container .janrain_emailButton:hover,
+.ng-pc-container .janrain_emailButton:active {
+  background: #00719f; }
+
+.ng-pc-container .janrain_emailButton:focus,
+.ng-pc-container .janrain_emailButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00acf0;
+  -moz-box-shadow: 0px 0px 2px 2px #00acf0;
+  box-shadow: 0px 0px 2px 2px #00acf0; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_email {
+  background: #009DDC; }
+
+.ng-pc-container .background-email {
+  background: #009DDC; }
+
+.ng-pc-container .background-email .janrainProgressIndicator {
+  background-color: #009DDC; }
+
+.ng-pc-container .border-email {
+  border-color: #009DDC; }
+
+.ng-pc-container .text-email {
+  color: #000000; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email:focus {
+  background-color: #43c9ff; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email:active {
+  border-color: #0080b3; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email.janrainLoading {
+  background-color: #1abdff;
+  cursor: default; }
+
+.ng-pc-container .janrain_email-googleButton {
+  background: #3B74F4; }
+
+.ng-pc-container .janrain_email-googleButton:hover,
+.ng-pc-container .janrain_email-googleButton:active {
+  background: #0d4fe5; }
+
+.ng-pc-container .janrain_email-googleButton:focus,
+.ng-pc-container .janrain_email-googleButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4e82f5;
+  -moz-box-shadow: 0px 0px 2px 2px #4e82f5;
+  box-shadow: 0px 0px 2px 2px #4e82f5; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_email-google {
+  background: #3B74F4; }
+
+.ng-pc-container .background-email-google {
+  background: #3B74F4; }
+
+.ng-pc-container .background-email-google .janrainProgressIndicator {
+  background-color: #3B74F4; }
+
+.ng-pc-container .border-email-google {
+  border-color: #3B74F4; }
+
+.ng-pc-container .text-email-google {
+  color: #3B74F4; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google:focus {
+  background-color: #9cb8f9; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google:active {
+  border-color: #1459f2; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-google.janrainLoading {
+  background-color: #759df7;
+  cursor: default; }
+
+.ng-pc-container .janrain_email-googleplusButton {
+  background: #CC3732; }
+
+.ng-pc-container .janrain_email-googleplusButton:hover,
+.ng-pc-container .janrain_email-googleplusButton:active {
+  background: #9b2a26; }
+
+.ng-pc-container .janrain_email-googleplusButton:focus,
+.ng-pc-container .janrain_email-googleplusButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d14642;
+  -moz-box-shadow: 0px 0px 2px 2px #d14642;
+  box-shadow: 0px 0px 2px 2px #d14642; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_email-googleplus {
+  background: #CC3732; }
+
+.ng-pc-container .background-email-googleplus {
+  background: #CC3732; }
+
+.ng-pc-container .background-email-googleplus .janrainProgressIndicator {
+  background-color: #CC3732; }
+
+.ng-pc-container .border-email-googleplus {
+  border-color: #CC3732; }
+
+.ng-pc-container .text-email-googleplus {
+  color: #737373; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus:focus {
+  background-color: #e18683; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus:active {
+  border-color: #ab2e2a; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-googleplus.janrainLoading {
+  background-color: #d96663;
+  cursor: default; }
+
+.ng-pc-container .janrain_email-mailtoButton {
+  background: #009DDC; }
+
+.ng-pc-container .janrain_email-mailtoButton:hover,
+.ng-pc-container .janrain_email-mailtoButton:active {
+  background: #00719f; }
+
+.ng-pc-container .janrain_email-mailtoButton:focus,
+.ng-pc-container .janrain_email-mailtoButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00acf0;
+  -moz-box-shadow: 0px 0px 2px 2px #00acf0;
+  box-shadow: 0px 0px 2px 2px #00acf0; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_email-mailto {
+  background: #009DDC; }
+
+.ng-pc-container .background-email-mailto {
+  background: #009DDC; }
+
+.ng-pc-container .background-email-mailto .janrainProgressIndicator {
+  background-color: #009DDC; }
+
+.ng-pc-container .border-email-mailto {
+  border-color: #009DDC; }
+
+.ng-pc-container .text-email-mailto {
+  color: #000000; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto:focus {
+  background-color: #43c9ff; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto:active {
+  border-color: #0080b3; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-mailto.janrainLoading {
+  background-color: #1abdff;
+  cursor: default; }
+
+.ng-pc-container .janrain_email-yahooButton {
+  background: #670267; }
+
+.ng-pc-container .janrain_email-yahooButton:hover,
+.ng-pc-container .janrain_email-yahooButton:active {
+  background: #2b012b; }
+
+.ng-pc-container .janrain_email-yahooButton:focus,
+.ng-pc-container .janrain_email-yahooButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #7b027b;
+  -moz-box-shadow: 0px 0px 2px 2px #7b027b;
+  box-shadow: 0px 0px 2px 2px #7b027b; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_email-yahoo {
+  background: #670267; }
+
+.ng-pc-container .background-email-yahoo {
+  background: #670267; }
+
+.ng-pc-container .background-email-yahoo .janrainProgressIndicator {
+  background-color: #670267; }
+
+.ng-pc-container .border-email-yahoo {
+  border-color: #670267; }
+
+.ng-pc-container .text-email-yahoo {
+  color: #670267; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo:focus {
+  background-color: #cb04cb; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo:active {
+  border-color: #3f013f; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-email-yahoo.janrainLoading {
+  background-color: #a303a3;
+  cursor: default; }
+
+.ng-pc-container .janrain_facebookButton {
+  background: #3B5998; }
+  .ng-pc-container .janrain_facebookButton:before {
+    margin-left: 8px;
+    margin-top: 7px; }
+
+.ng-pc-container .janrain_native-facebookButton:hover,
+.ng-pc-container .janrain_native-facebookButton:active {
+  background: #2a3f6c; }
+
+.ng-pc-container .janrain_native-facebookButton:focus,
+.ng-pc-container .janrain_native-facebookButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4162a7;
+  -moz-box-shadow: 0px 0px 2px 2px #4162a7;
+  box-shadow: 0px 0px 2px 2px #4162a7; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-facebook {
+  background: #3B5998; }
+
+.ng-pc-container .background-native-facebook {
+  background: #3B5998; }
+
+.ng-pc-container .background-native-facebook .janrainProgressIndicator {
+  background-color: #3B5998; }
+
+.ng-pc-container .border-native-facebook {
+  border-color: #3B5998; }
+
+.ng-pc-container .text-native-facebook {
+  color: #3B5998; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook:focus {
+  background-color: #718dc8; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook:active {
+  border-color: #30487b; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-facebook.janrainLoading {
+  background-color: #5476bd;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-googleplusButton {
+  background: #CC3732; }
+  .ng-pc-container .janrain_native-googleplusButton:before {
+    margin-left: 8px;
+    margin-top: 8px; }
+
+.ng-pc-container .janrain_native-googleplusButton:hover,
+.ng-pc-container .janrain_native-googleplusButton:active {
+  background: #9b2a26; }
+
+.ng-pc-container .janrain_native-googleplusButton:focus,
+.ng-pc-container .janrain_native-googleplusButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d14642;
+  -moz-box-shadow: 0px 0px 2px 2px #d14642;
+  box-shadow: 0px 0px 2px 2px #d14642; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-googleplus {
+  background: #CC3732; }
+
+.ng-pc-container .background-native-googleplus {
+  background: #CC3732; }
+
+.ng-pc-container .background-native-googleplus .janrainProgressIndicator {
+  background-color: #CC3732; }
+
+.ng-pc-container .border-native-googleplus {
+  border-color: #CC3732; }
+
+.ng-pc-container .text-native-googleplus {
+  color: #737373; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus:focus {
+  background-color: #e18683; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus:active {
+  border-color: #ab2e2a; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-googleplus.janrainLoading {
+  background-color: #d96663;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-linkedinButton {
+  background: #005A87; }
+
+.ng-pc-container .janrain_native-linkedinButton:hover,
+.ng-pc-container .janrain_native-linkedinButton:active {
+  background: #00314a; }
+
+.ng-pc-container .janrain_native-linkedinButton:focus,
+.ng-pc-container .janrain_native-linkedinButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00689b;
+  -moz-box-shadow: 0px 0px 2px 2px #00689b;
+  box-shadow: 0px 0px 2px 2px #00689b; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-linkedin {
+  background: #005A87; }
+
+.ng-pc-container .background-native-linkedin {
+  background: #005A87; }
+
+.ng-pc-container .background-native-linkedin .janrainProgressIndicator {
+  background-color: #005A87; }
+
+.ng-pc-container .border-native-linkedin {
+  border-color: #005A87; }
+
+.ng-pc-container .text-native-linkedin {
+  color: #005A87; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin:focus {
+  background-color: #009eed; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin:active {
+  border-color: #003f5e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-linkedin.janrainLoading {
+  background-color: #0083c4;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-mixiButton {
+  background: #D1AD5A; }
+
+.ng-pc-container .janrain_native-mixiButton:hover,
+.ng-pc-container .janrain_native-mixiButton:active {
+  background: #ba9134; }
+
+.ng-pc-container .janrain_native-mixiButton:focus,
+.ng-pc-container .janrain_native-mixiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d5b56a;
+  -moz-box-shadow: 0px 0px 2px 2px #d5b56a;
+  box-shadow: 0px 0px 2px 2px #d5b56a; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-mixi {
+  background: #D1AD5A; }
+
+.ng-pc-container .background-native-mixi {
+  background: #D1AD5A; }
+
+.ng-pc-container .background-native-mixi .janrainProgressIndicator {
+  background-color: #D1AD5A; }
+
+.ng-pc-container .border-native-mixi {
+  border-color: #D1AD5A; }
+
+.ng-pc-container .text-native-mixi {
+  color: #D1AD5A; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi:focus {
+  background-color: #e7d5aa; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi:active {
+  border-color: #c89d3a; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-mixi.janrainLoading {
+  background-color: #dec58a;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-pinterestButton {
+  background: #BE0A1E; }
+  .ng-pc-container .janrain_native-pinterestButton:before {
+    margin-left: 8px;
+    margin-top: 8px; }
+
+.ng-pc-container .janrain_native-pinterestButton:hover,
+.ng-pc-container .janrain_native-pinterestButton:active {
+  background: #840715; }
+
+.ng-pc-container .janrain_native-pinterestButton:focus,
+.ng-pc-container .janrain_native-pinterestButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d10b21;
+  -moz-box-shadow: 0px 0px 2px 2px #d10b21;
+  box-shadow: 0px 0px 2px 2px #d10b21; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-pinterest {
+  background: #BE0A1E; }
+
+.ng-pc-container .background-native-pinterest {
+  background: #BE0A1E; }
+
+.ng-pc-container .background-native-pinterest .janrainProgressIndicator {
+  background-color: #BE0A1E; }
+
+.ng-pc-container .border-native-pinterest {
+  border-color: #BE0A1E; }
+
+.ng-pc-container .text-native-pinterest {
+  color: #CB2027; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest:focus {
+  background-color: #f5394e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest:active {
+  border-color: #970818; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-pinterest.janrainLoading {
+  background-color: #f3132c;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-sinaweiboButton {
+  background: #D72829; }
+
+.ng-pc-container .janrain_native-sinaweiboButton:hover,
+.ng-pc-container .janrain_native-sinaweiboButton:active {
+  background: #a31e1f; }
+
+.ng-pc-container .janrain_native-sinaweiboButton:focus,
+.ng-pc-container .janrain_native-sinaweiboButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #da393a;
+  -moz-box-shadow: 0px 0px 2px 2px #da393a;
+  box-shadow: 0px 0px 2px 2px #da393a; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-sinaweibo {
+  background: #D72829; }
+
+.ng-pc-container .background-native-sinaweibo {
+  background: #D72829; }
+
+.ng-pc-container .background-native-sinaweibo .janrainProgressIndicator {
+  background-color: #D72829; }
+
+.ng-pc-container .border-native-sinaweibo {
+  border-color: #D72829; }
+
+.ng-pc-container .text-native-sinaweibo {
+  color: #D72829; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo:focus {
+  background-color: #e77e7f; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo:active {
+  border-color: #b52222; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-sinaweibo.janrainLoading {
+  background-color: #e15c5c;
+  cursor: default; }
+
+.ng-pc-container .janrain_twitterButton {
+  background: #27C9FF; }
+  .ng-pc-container .janrain_twitterButton:before {
+    margin-left: 8px;
+    margin-top: 7px; }
+
+.ng-pc-container .janrain_native-twitterButton:hover,
+.ng-pc-container .janrain_native-twitterButton:active {
+  background: #00afe9; }
+
+.ng-pc-container .janrain_native-twitterButton:focus,
+.ng-pc-container .janrain_native-twitterButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #3bceff;
+  -moz-box-shadow: 0px 0px 2px 2px #3bceff;
+  box-shadow: 0px 0px 2px 2px #3bceff; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-twitter {
+  background: #27C9FF; }
+
+.ng-pc-container .background-native-twitter {
+  background: #27C9FF; }
+
+.ng-pc-container .background-native-twitter .janrainProgressIndicator {
+  background-color: #27C9FF; }
+
+.ng-pc-container .border-native-twitter {
+  border-color: #27C9FF; }
+
+.ng-pc-container .text-native-twitter {
+  color: #27C9FF; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter:focus {
+  background-color: #8de3ff; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter:active {
+  border-color: #00befd; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-twitter.janrainLoading {
+  background-color: #64d8ff;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-tumblrButton {
+  background: #31516F; }
+  .ng-pc-container .janrain_native-tumblrButton:before {
+    margin-left: 7px;
+    margin-top: 7px; }
+
+.ng-pc-container .janrain_native-tumblrButton:hover,
+.ng-pc-container .janrain_native-tumblrButton:active {
+  background: #1e3245; }
+
+.ng-pc-container .janrain_native-tumblrButton:focus,
+.ng-pc-container .janrain_native-tumblrButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #375b7d;
+  -moz-box-shadow: 0px 0px 2px 2px #375b7d;
+  box-shadow: 0px 0px 2px 2px #375b7d; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-tumblr {
+  background: #31516F; }
+
+.ng-pc-container .background-native-tumblr {
+  background: #31516F; }
+
+.ng-pc-container .background-native-tumblr .janrainProgressIndicator {
+  background-color: #31516F; }
+
+.ng-pc-container .border-native-tumblr {
+  border-color: #31516F; }
+
+.ng-pc-container .text-native-tumblr {
+  color: #31516F; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr:focus {
+  background-color: #5385b3; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr:active {
+  border-color: #253c53; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-tumblr.janrainLoading {
+  background-color: #447099;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-xingButton {
+  background: #006567; }
+
+.ng-pc-container .janrain_native-xingButton:hover,
+.ng-pc-container .janrain_native-xingButton:active {
+  background: #00292a; }
+
+.ng-pc-container .janrain_native-xingButton:focus,
+.ng-pc-container .janrain_native-xingButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00797b;
+  -moz-box-shadow: 0px 0px 2px 2px #00797b;
+  box-shadow: 0px 0px 2px 2px #00797b; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-xing {
+  background: #006567; }
+
+.ng-pc-container .background-native-xing {
+  background: #006567; }
+
+.ng-pc-container .background-native-xing .janrainProgressIndicator {
+  background-color: #006567; }
+
+.ng-pc-container .border-native-xing {
+  border-color: #006567; }
+
+.ng-pc-container .text-native-xing {
+  color: #006567; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing:focus {
+  background-color: #00c9cd; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing:active {
+  border-color: #003d3e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-xing.janrainLoading {
+  background-color: #00a1a4;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-redditButton {
+  background: #FF4500; }
+  .ng-pc-container .janrain_native-redditButton:before {
+    margin-left: 7px;
+    margin-top: 6px; }
+
+.ng-pc-container .janrain_native-redditButton:hover,
+.ng-pc-container .janrain_native-redditButton:active {
+  background: #c23400; }
+
+.ng-pc-container .janrain_native-redditButton:focus,
+.ng-pc-container .janrain_native-redditButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #ff5414;
+  -moz-box-shadow: 0px 0px 2px 2px #ff5414;
+  box-shadow: 0px 0px 2px 2px #ff5414; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-reddit {
+  background: #FF4500; }
+
+.ng-pc-container .background-native-reddit {
+  background: #FF4500; }
+
+.ng-pc-container .background-native-reddit .janrainProgressIndicator {
+  background-color: #FF4500; }
+
+.ng-pc-container .border-native-reddit {
+  border-color: #FF4500; }
+
+.ng-pc-container .text-native-reddit {
+  color: #FF4500; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit:focus {
+  background-color: #ff8f66; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit:active {
+  border-color: #d63a00; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-reddit.janrainLoading {
+  background-color: #ff723d;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-odnoklassnikiButton {
+  background: #fa9113; }
+
+.ng-pc-container .janrain_native-odnoklassnikiButton:hover,
+.ng-pc-container .janrain_native-odnoklassnikiButton:active {
+  background: #cb7104; }
+
+.ng-pc-container .janrain_native-odnoklassnikiButton:focus,
+.ng-pc-container .janrain_native-odnoklassnikiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #fa9a27;
+  -moz-box-shadow: 0px 0px 2px 2px #fa9a27;
+  box-shadow: 0px 0px 2px 2px #fa9a27; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-odnoklassniki {
+  background: #fa9113; }
+
+.ng-pc-container .background-native-odnoklassniki {
+  background: #fa9113; }
+
+.ng-pc-container .background-native-odnoklassniki .janrainProgressIndicator {
+  background-color: #fa9113; }
+
+.ng-pc-container .border-native-odnoklassniki {
+  border-color: #fa9113; }
+
+.ng-pc-container .text-native-odnoklassniki {
+  color: #fa9113; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki:focus {
+  background-color: #fcc077; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki:active {
+  border-color: #df7c05; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-odnoklassniki.janrainLoading {
+  background-color: #fbad4f;
+  cursor: default; }
+
+.ng-pc-container .janrain_native-vkButton {
+  background: #45668e; }
+
+.ng-pc-container .janrain_native-vkButton:hover,
+.ng-pc-container .janrain_native-vkButton:active {
+  background: #314865; }
+
+.ng-pc-container .janrain_native-vkButton:focus,
+.ng-pc-container .janrain_native-vkButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4c709c;
+  -moz-box-shadow: 0px 0px 2px 2px #4c709c;
+  box-shadow: 0px 0px 2px 2px #4c709c; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_native-vk {
+  background: #45668e; }
+
+.ng-pc-container .background-native-vk {
+  background: #45668e; }
+
+.ng-pc-container .background-native-vk .janrainProgressIndicator {
+  background-color: #45668e; }
+
+.ng-pc-container .border-native-vk {
+  border-color: #45668e; }
+
+.ng-pc-container .text-native-vk {
+  color: #45668e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk:focus {
+  background-color: #7a99bf; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk:active {
+  border-color: #385273; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-native-vk.janrainLoading {
+  background-color: #5f84b1;
+  cursor: default; }
+
+.ng-pc-container .janrain_facebookButton {
+  background: #3B5998; }
+
+.ng-pc-container .janrain_facebookButton:hover,
+.ng-pc-container .janrain_facebookButton:active {
+  background: #2a3f6c; }
+
+.ng-pc-container .janrain_facebookButton:focus,
+.ng-pc-container .janrain_facebookButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #4162a7;
+  -moz-box-shadow: 0px 0px 2px 2px #4162a7;
+  box-shadow: 0px 0px 2px 2px #4162a7; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_facebook {
+  background: #3B5998; }
+
+.ng-pc-container .background-facebook {
+  background: #3B5998; }
+
+.ng-pc-container .background-facebook .janrainProgressIndicator {
+  background-color: #3B5998; }
+
+.ng-pc-container .border-facebook {
+  border-color: #3B5998; }
+
+.ng-pc-container .text-facebook {
+  color: #3B5998; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook:focus {
+  background-color: #718dc8; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook:active {
+  border-color: #30487b; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-facebook.janrainLoading {
+  background-color: #5476bd;
+  cursor: default; }
+
+.ng-pc-container .janrain_linkedinButton {
+  background: #005A87; }
+
+.ng-pc-container .janrain_linkedinButton:hover,
+.ng-pc-container .janrain_linkedinButton:active {
+  background: #00314a; }
+
+.ng-pc-container .janrain_linkedinButton:focus,
+.ng-pc-container .janrain_linkedinButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00689b;
+  -moz-box-shadow: 0px 0px 2px 2px #00689b;
+  box-shadow: 0px 0px 2px 2px #00689b; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_linkedin {
+  background: #005A87; }
+
+.ng-pc-container .background-linkedin {
+  background: #005A87; }
+
+.ng-pc-container .background-linkedin .janrainProgressIndicator {
+  background-color: #005A87; }
+
+.ng-pc-container .border-linkedin {
+  border-color: #005A87; }
+
+.ng-pc-container .text-linkedin {
+  color: #005A87; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin:focus {
+  background-color: #009eed; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin:active {
+  border-color: #003f5e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-linkedin.janrainLoading {
+  background-color: #0083c4;
+  cursor: default; }
+
+.ng-pc-container .janrain_mixiButton {
+  background: #D1AD5A; }
+
+.ng-pc-container .janrain_mixiButton:hover,
+.ng-pc-container .janrain_mixiButton:active {
+  background: #ba9134; }
+
+.ng-pc-container .janrain_mixiButton:focus,
+.ng-pc-container .janrain_mixiButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #d5b56a;
+  -moz-box-shadow: 0px 0px 2px 2px #d5b56a;
+  box-shadow: 0px 0px 2px 2px #d5b56a; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_mixi {
+  background: #D1AD5A; }
+
+.ng-pc-container .background-mixi {
+  background: #D1AD5A; }
+
+.ng-pc-container .background-mixi .janrainProgressIndicator {
+  background-color: #D1AD5A; }
+
+.ng-pc-container .border-mixi {
+  border-color: #D1AD5A; }
+
+.ng-pc-container .text-mixi {
+  color: #D1AD5A; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi:focus {
+  background-color: #e7d5aa; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi:active {
+  border-color: #c89d3a; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-mixi.janrainLoading {
+  background-color: #dec58a;
+  cursor: default; }
+
+.ng-pc-container .janrain_qqButton {
+  background: #20B2ED; }
+
+.ng-pc-container .janrain_qqButton:hover,
+.ng-pc-container .janrain_qqButton:active {
+  background: #108dc0; }
+
+.ng-pc-container .janrain_qqButton:focus,
+.ng-pc-container .janrain_qqButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #33b9ef;
+  -moz-box-shadow: 0px 0px 2px 2px #33b9ef;
+  box-shadow: 0px 0px 2px 2px #33b9ef; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_qq {
+  background: #20B2ED; }
+
+.ng-pc-container .background-qq {
+  background: #20B2ED; }
+
+.ng-pc-container .background-qq .janrainProgressIndicator {
+  background-color: #20B2ED; }
+
+.ng-pc-container .border-qq {
+  border-color: #20B2ED; }
+
+.ng-pc-container .text-qq {
+  color: #201D28; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq:focus {
+  background-color: #7ed3f5; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq:active {
+  border-color: #119bd3; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-qq.janrainLoading {
+  background-color: #59c6f2;
+  cursor: default; }
+
+.ng-pc-container .janrain_tencentweiboButton {
+  background: #20B8E5; }
+
+.ng-pc-container .janrain_tencentweiboButton:hover,
+.ng-pc-container .janrain_tencentweiboButton:active {
+  background: #158fb3; }
+
+.ng-pc-container .janrain_tencentweiboButton:focus,
+.ng-pc-container .janrain_tencentweiboButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #32bee7;
+  -moz-box-shadow: 0px 0px 2px 2px #32bee7;
+  box-shadow: 0px 0px 2px 2px #32bee7; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_tencentweibo {
+  background: #20B8E5; }
+
+.ng-pc-container .background-tencentweibo {
+  background: #20B8E5; }
+
+.ng-pc-container .background-tencentweibo .janrainProgressIndicator {
+  background-color: #20B8E5; }
+
+.ng-pc-container .border-tencentweibo {
+  border-color: #20B8E5; }
+
+.ng-pc-container .text-tencentweibo {
+  color: #20B8E5; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo:focus {
+  background-color: #7bd5f0; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo:active {
+  border-color: #179dc5; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-tencentweibo.janrainLoading {
+  background-color: #57c9eb;
+  cursor: default; }
+
+.ng-pc-container .janrain_twitterButton {
+  background: #27C9FF; }
+
+.ng-pc-container .janrain_twitterButton:hover,
+.ng-pc-container .janrain_twitterButton:active {
+  background: #00afe9; }
+
+.ng-pc-container .janrain_twitterButton:focus,
+.ng-pc-container .janrain_twitterButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #3bceff;
+  -moz-box-shadow: 0px 0px 2px 2px #3bceff;
+  box-shadow: 0px 0px 2px 2px #3bceff; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_twitter {
+  background: #27C9FF; }
+
+.ng-pc-container .background-twitter {
+  background: #27C9FF; }
+
+.ng-pc-container .background-twitter .janrainProgressIndicator {
+  background-color: #27C9FF; }
+
+.ng-pc-container .border-twitter {
+  border-color: #27C9FF; }
+
+.ng-pc-container .text-twitter {
+  color: #27C9FF; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter:focus {
+  background-color: #8de3ff; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter:active {
+  border-color: #00befd; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-twitter.janrainLoading {
+  background-color: #64d8ff;
+  cursor: default; }
+
+.ng-pc-container .janrain_xingButton {
+  background: #006567; }
+
+.ng-pc-container .janrain_xingButton:hover,
+.ng-pc-container .janrain_xingButton:active {
+  background: #00292a; }
+
+.ng-pc-container .janrain_xingButton:focus,
+.ng-pc-container .janrain_xingButton.currentProviderShowing {
+  -webkit-box-shadow: 0px 0px 2px 2px #00797b;
+  -moz-box-shadow: 0px 0px 2px 2px #00797b;
+  box-shadow: 0px 0px 2px 2px #00797b; }
+
+.ng-pc-container .janrainShareForm.janrainShareForm_xing {
+  background: #006567; }
+
+.ng-pc-container .background-xing {
+  background: #006567; }
+
+.ng-pc-container .background-xing .janrainProgressIndicator {
+  background-color: #006567; }
+
+.ng-pc-container .border-xing {
+  border-color: #006567; }
+
+.ng-pc-container .text-xing {
+  color: #006567; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing:active,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing:focus {
+  background-color: #00c9cd; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing:hover,
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing:active {
+  border-color: #003d3e; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare.background-xing.janrainLoading {
+  background-color: #00a1a4;
+  cursor: default; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal .janrainProviderList {
+  height: 32px; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal .janrainProviderList,
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList {
+  display: inline-block; }
+
+.ng-pc-container .janrainSocialRoot button.janrainProvider {
+  font-family: Helvetica Neue, Helvetica, FreeSans, Arial, sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  border: 0px solid #000;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  line-height: 32px; }
+
+.ng-pc-container .janrainSocialRoot button.janrainProvider img {
+  margin: 0px;
+  width: 32px;
+  height: 32px; }
+
+.ng-pc-container .janrainSocialRoot button.janrainProvider.currentProviderShowing.shareScreenVisible {
+  overflow: visible;
+  /* necessary for IE only */ }
+
+.ng-pc-container .janrainSocialRoot button.janrainProvider.currentProviderShowing.shareScreenVisible:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  z-index: -1;
+  border-style: solid; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal button.currentProviderShowing.shareScreenVisible:before {
+  top: 33px;
+  left: 0;
+  border-color: #aaaaaa transparent;
+  border-width: 0 16px 11px 16px; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical button.currentProviderShowing.shareScreenVisible:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  border-color: transparent #aaaaaa; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical.janrainGravityEast button.currentProviderShowing.shareScreenVisible:before {
+  border-width: 16px 14.5px 16px 0;
+  left: 33px;
+  right: auto; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical.janrainGravityWest button.currentProviderShowing.shareScreenVisible:before {
+  border-width: 16px 0 16px 14.5px;
+  left: auto;
+  right: 33px; }
+
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList {
+  width: 100%;
+  text-align: center;
+  padding-top: 17px; }
+
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection {
+  display: inline-block;
+  padding: 8.5px 17px;
+  text-align: center; }
+
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection button.janrainProvider {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 6px auto; }
+
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection button.janrainProvider img {
+  width: 48px;
+  height: 48px; }
+
+.ng-pc-container .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection .janrainEmailProviderLabel {
+  display: block;
+  text-align: center;
+  font-size: 13px; }
+
+.ng-pc-container .janrainSocialRoot.janrainShareCountHidden.janrainFormFactorBar .janrainProviderList button.janrainProvider:first-child {
+  margin-left: 0px; }
+
+@media screen and (max-device-width: 480px) {
+  .ng-pc-container .janrainSocialRoot .janrainEmailProviderList .janrainEmailProviderSelection {
+    display: block; } }
+
+.ng-pc-container .janrainSocialRoot .janrainSocialBar {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: visible; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareCountContainer {
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 4px 0px;
+  color: #333;
+  background: #f8f8f8;
+  width: 46px;
+  height: 24px;
+  border: 1px solid #dcdcdc;
+  vertical-align: top;
+  text-align: center; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareCount {
+  height: 24px;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #555;
+  line-height: 22px;
+  vertical-align: middle; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical .janrainSocialBar {
+  margin-bottom: 0px; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical button.janrainProvider {
+  display: block;
+  margin-bottom: 9px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical .janrainShareCountContainer {
+  display: block; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal button.janrainProvider {
+  display: inline-block;
+  margin-left: 9px; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationHorizontal .janrainShareCountContainer {
+  display: inline-block; }
+
+.ng-pc-container .janrainSocialRoot[dir="rtl"].janrainOrientationHorizontal button.janrainProvider {
+  margin-left: 0;
+  margin-right: 9px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainShareCountContainer {
+  margin: 9px 5px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButtonContainer {
+  display: inline-block; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButton {
+  height: 42px;
+  width: 42px;
+  border: 2px solid #aaaaaa;
+  padding: 2px;
+  background: #dcdcdc;
+  color: #333;
+  font-weight: bold; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer .janrainProviderList {
+  position: absolute;
+  padding: 5px;
+  background: #aaaaaa;
+  z-index: 1; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer button.janrainProvider {
+  position: relative;
+  z-index: 1; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList {
+  position: absolute;
+  top: 0;
+  display: none; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList button.janrainProvider {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainProviderList button.janrainProvider:first-child {
+  margin-left: 0; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList {
+  display: none; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider {
+  margin-left: 0;
+  margin-right: 0; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider:first-child {
+  margin-top: 0; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList button.janrainProvider:last-child {
+  margin-bottom: 0; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen {
+  z-index: 2; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen.janrainOrientationHorizontal .janrainProviderList {
+  display: inline-block;
+  white-space: nowrap; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainProviderListOpen.janrainOrientationVertical .janrainProviderList {
+  display: block; }
+
+.ng-pc-container .janrainSocialRoot.janrainShareCountHidden .janrainShareCountContainer {
+  display: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainContactList {
+  margin-top: 17px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative; }
+
+.ng-pc-container .janrainSocialRoot .janrainContactList ul {
+  list-style: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareFromLine {
+  margin-top: 17px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareFromLine.janrainEmailSharing + .janrainContactList {
+  margin-top: 0; }
+
+.ng-pc-container .janrainSocialRoot .janrainContactList .janrainShareCaption,
+.ng-pc-container .janrainSocialRoot .janrainShareFromLine .janrainShareCaption {
+  display: inline-block;
+  width: 12%;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: right; }
+
+.ng-pc-container .janrainSocialRoot .janrainContactList .janrainReturnAddress,
+.ng-pc-container .janrainSocialRoot .janrainShareFromLine .janrainReturnAddress {
+  margin-left: 6px;
+  font-size: 0.875em; }
+
+.ng-pc-container .janrainSocialRoot .janrainContactList .janrainReturnAddressEmail,
+.ng-pc-container .janrainSocialRoot .janrainShareFromLine .janrainReturnAddressEmail {
+  font-style: italic;
+  font-size: 0.75em;
+  margin-left: .5em; }
+
+.ng-pc-container .janrainSocialRoot[dir="ltr"] .janrainReturnAddressEmail:before {
+  content: "<"; }
+
+.ng-pc-container .janrainSocialRoot[dir="ltr"] .janrainReturnAddressEmail:after {
+  content: ">"; }
+
+.ng-pc-container .janrainSocialRoot .janrainComposeMessageHeader {
+  margin-top: 8.5px;
+  padding-left: 12px; }
+
+.ng-pc-container .janrainSocialRoot .janrainComposeMessageHeader + .janrainShareMessage {
+  margin-top: 4px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearch {
+  padding: 6px;
+  margin: 0px;
+  width: 88%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResults {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #aaaaaa;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult {
+  font-size: 14px;
+  line-height: 24px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a {
+  display: block;
+  padding: 0 6px;
+  line-height: 24px;
+  height: 30px;
+  vertical-align: middle;
+  border-bottom: 1px solid #dcdcdc;
+  color: inherit;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a .janrainShareAddContact {
+  display: inline;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  vertical-align: middle;
+  background-image: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaElEQVR42mNkoDFgHLWA2hasgdIhtLLgN5RmpaUF/4GYbUhbAAIjPIhASdEPKvcfSR2IzQLl/0ETh7E3MqAlYVwW+ONwEDOU/otDnigLaB5EhCwAgRGeighZAAJDN4hoXlyTDEYtIAgAD2cfGfAXu4IAAAAASUVORK5CYII=);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a .janrainShareContactImage {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a .janrainContactUserName {
+  font-weight: 700;
+  margin-right: 6px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a .janrainContactUserId {
+  font-weight: 300;
+  font-size: 0.9em; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a span,
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult a em {
+  font-size: 14px;
+  line-height: 30px;
+  vertical-align: middle; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult:last-child a {
+  border-bottom: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSearchResult:hover {
+  background-color: #e3eff4; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSelected {
+  background-color: #f0f0f0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAQAAABuvaSwAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAACqjSMyAAAACXBIWXMAAAAYAAAAGADw/D6dAAAAiElEQVQoz2NgGFJAiEGBWKWCDPMYTjOYE6d0LsM/hpcMwcQqfcUQwcBIrNJIWitlY4hlsCbW1FiGTwzXMZTjcIAmw26G/wzXUJTjcasSwx4U5QS8hayciBCAKL/K4Mkwm5jAgij/wPCHuHCFKH9JTMQyMDAwqDCsYogiTikDAwMDNwMzsUqpCQAyqzpFGnm0gAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNC0wNi0yNFQxMzoxOToxOS0wNzowMLTr/McAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMDEtMTRUMTI6MzE6NTAtMDg6MDADju97AAAAJnRFWHRzdmc6YmFzZS11cmkAZmlsZTovLy90bXAvdG1wUHZlS3JnLnN2Z5eRPvMAAAAASUVORK5CYII=);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  text-decoration: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSelected span,
+.ng-pc-container .janrainSocialRoot .janrainShareContactSelected em {
+  color: #c8c8c8; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContactSelected img {
+  opacity: .5; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContacts {
+  display: block;
+  position: relative;
+  margin-bottom: 8.5px;
+  margin-top: 4px;
+  max-width: 100%; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContacts > a {
+  display: block;
+  padding-left: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #0000ee;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.ng-pc-container .janrainSocialRoot .mysteryPerson {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAACqjSMyAAAACXBIWXMAAAAYAAAAGADw/D6dAAABuUlEQVQ4y4XUv0vUcRzH8cfddd3VXZGhYVQeBuEhSaGDoFnRDwkaQoL6F2qIHGoJatClNQhqCCpIrJaWlhqcFGpICvUiGqLMhApc7upSv11Dafq97+Fr+fD+8fz8eH/enw9htXtoxpw5nw3ZHw7HQvZJ1733yDRyztrtsmdqqkPBVRuX7YwBk/bVSk964J7UKt8GQ+5aFw20mtJd5T1s0p7/ZnxFKK/obRUwpawlGtiq6GcV8ENJXTSQlZaoAhLSNkUBcZ3eRK4woTMK+G1BSVAFLCpZiN7SmB47q4CcLmPRZW004k6o5kn3Pdeghk6Ykl/l2avgqJrKeuqG5LK93i1PVrRKhI774tK/lKwrZh1ZnRDukk8WXXDQiJhjWs2bCV/L0liv1SkXxZ1X0SVn1E2H9NiMeWUVlt5Du3M6pH0z6rEJFQkEYtqccUCDslduG/87e6+CYX3yMpHnysjrM6ygF5q9NBh6BVFKGfRCc0K/HfoV1wQCr522Ja5JoFF6TSCtUaApps01LWZ9MO2rOUVlCwIkJKVl1dlml2bbvTMQQ1a7bm1y6mWkJJb/korALyXffTRhzLjiH6oxbaQg0dFYAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE0LTA2LTI0VDEyOjI3OjE4LTA3OjAwSCF4RAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNC0wMS0wOVQxODoyNjo1NC0wODowMGAg4O0AAAAmdEVYdHN2ZzpiYXNlLXVyaQBmaWxlOi8vL3RtcC90bXA2TTh0WWwuc3Znbb/jgwAAAABJRU5ErkJggg==);
+  background-size: cover; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactRemoveButton {
+  text-align: right; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails {
+  position: absolute;
+  top: 27px;
+  width: 96%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px;
+  border: 1px solid #aaaaaa;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  background: #fff;
+  max-height: 208px;
+  z-index: 10; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border: solid transparent;
+  content: " ";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  pointer-events: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::before {
+  border-width: 7px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border-width: 6px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  bottom: 100%;
+  left: 50%; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::before {
+  border-bottom-color: #aaaaaa;
+  margin-left: -7px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  border-bottom-color: #ffffff;
+  margin-left: -6px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::before,
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsDetails::after {
+  left: 12%; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactsList {
+  padding: 0px;
+  margin: 0px;
+  overflow-y: scroll;
+  max-height: 194px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactEntry {
+  text-align: left;
+  position: relative;
+  padding: 7px 0px;
+  border-top: 1px dotted #dcdcdc;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactEntry:first-child {
+  border-top: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactEntry a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  float: right; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactImage {
+  float: left; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactName {
+  font-size: .75em; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactName {
+  text-overflow: ellipsis;
+  max-width: 200px;
+  white-space: nowrap;
+  display: block;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 6px;
+  line-height: 24px;
+  overflow: hidden;
+  padding-right: 38px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactRemoveButton {
+  display: block;
+  float: right;
+  width: 12px;
+  height: 12px;
+  padding: 5px 10px;
+  background-image: url(data:image/gif;base64,R0lGODlhGAAYAPECAAAAAAEBAQAAAAAAACH5BAEAAAIAIf8LSW1hZ2VNYWdpY2sHZ2FtbWE9MQAsAAAAABgAGAAAAj+Uj6nL7e9CgHLJ2u5MeqtuaZ/IgIeZkWjUkZDQYq/Rzkhtw7EdX6+5CvlOrtHwViQeOUmdTOhBUqK5qvVqKAAAOw==);
+  background-size: 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSelectedContactRemoveButton:hover {
+  opacity: 1; }
+
+@media screen and (max-width: 480px) {
+  .ng-pc-container .janrainSocialRoot .janrainContactList {
+    padding-right: 33px; }
+  .ng-pc-container .janrainSocialRoot .janrainShareSelectedContacts {
+    margin-top: 4px; } }
+
+.ng-pc-container .janrainSocialRoot .janrainShareForm {
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 6px 12px 4px rgba(0, 0, 0, 0.35);
+  border-top: 1px solid #aaaaaa;
+  width: 450px;
+  background: #ffffff;
+  position: absolute;
+  z-index: 4; }
+
+.ng-pc-container .janrainSocialRoot textarea {
+  background: #f8f8f8;
+  border: 1px solid #ccc; }
+
+.ng-pc-container .janrainSocialRoot.janrainOrientationVertical .janrainShareForm {
+  display: inline-block;
+  top: 15px;
+  left: 46.5px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal.janrainShareCountHidden .janrainShareForm {
+  left: 0px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal .janrainShareForm {
+  top: 43px;
+  left: 38px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationHorizontal .janrainShareForm.janrainGravityWest {
+  right: 0px;
+  left: auto; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical.janrainShareCountHidden .janrainShareForm {
+  top: 0px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical .janrainShareForm {
+  left: 46.5px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorBar.janrainOrientationVertical .janrainShareForm.janrainGravityWest {
+  left: auto;
+  right: 46.5px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal.janrainShareCountHidden .janrainShareForm {
+  left: 0px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationHorizontal .janrainShareForm {
+  left: 42px;
+  top: 48px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical.janrainShareCountHidden .janrainShareForm {
+  top: 0px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainShareForm {
+  left: 51.5px;
+  top: 42px; }
+
+.ng-pc-container .janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainShareForm.janrainGravityWest {
+  left: auto;
+  right: 46.5px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareCaption {
+  font-size: 13px;
+  font-weight: bold; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareTitle {
+  margin-right: 27px;
+  display: inline-block; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareCloseButton {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  padding: 17px;
+  top: 0;
+  right: 0;
+  background-image: url(data:image/gif;base64,R0lGODlhFAAUAJEAAE1NTf///////wAAACH5BAEHAAIALAAAAAAUABQAAAIzBISpK+YMm5Enpodw1HlCfnkKOIqU1VXk55goVb2hi7Y0q95lfG70uurNaqLgTviyyUoFADs=);
+  background-size: 10px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareCloseButton:hover,
+.ng-pc-container .janrainSocialRoot .janrainShareCloseButton:focus {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1; }
+
+.ng-pc-container .janrainSocialRoot[dir="rtl"] .janrainShareCloseButton {
+  left: 0;
+  right: auto; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareUserInputArea {
+  padding: 17px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareMessage {
+  padding: 4px 12px;
+  min-height: 60px;
+  height: 60px;
+  width: 100%;
+  margin-top: 17px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 1.5; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareResponseMessage {
+  display: none;
+  line-height: 46px;
+  vertical-align: top;
+  margin-top: 17px;
+  margin-left: 17px;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareResponseMessage.janrainVisible {
+  display: inline;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare {
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 17px 0 0;
+  padding: 7px 14px;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  cursor: pointer;
+  min-width: 100px; }
+
+.ng-pc-container .janrainSocialRoot button.janrainShare span {
+  font-size: 18px;
+  line-height: 1.5;
+  max-height: 27px; }
+
+.ng-pc-container .janrainSocialRoot[dir="rtl"] button.janrainShare {
+  margin: 0 0 0 17px; }
+
+@-webkit-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6; }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9; }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: .6; } }
+
+@-moz-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6; }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9; }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: .6; } }
+
+@-ms-keyframes bouncing-dots {
+  .ng-pc-container 0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6; }
+  .ng-pc-container 15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9; }
+  .ng-pc-container 30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9; }
+  .ng-pc-container 50% {
+    opacity: .6; }
+  .ng-pc-container 90% {
+    opacity: 0; }
+  .ng-pc-container 100% {
+    opacity: .6; } }
+
+@-o-keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6; }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9; }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: .6; } }
+
+@keyframes bouncing-dots {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .6; }
+  15% {
+    transform: scale(1.1) translateY(-5px);
+    -webkit-transform: scale(1.1) translateY(-5px);
+    -moz-transform: scale(1.1) translateY(-5px);
+    -ms-transform: scale(1.1) translateY(-5px);
+    -o-transform: scale(1.1) translateY(-5px);
+    opacity: .9; }
+  30% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    opacity: .9; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: .6; } }
+
+.ng-pc-container .janrainSocialRoot .janrainShareSubmitActions {
+  padding-top: 17px;
+  overflow: hidden; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar {
+  display: none; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar.janrainVisible {
+  background: none;
+  display: block;
+  height: 41px; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar.janrainVisible .janrainProgressIndicator {
+  width: 10.25px;
+  height: 10.25px;
+  line-height: 41px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 12.300123001230013px 0.5em; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar.janrainVisible .janrainProviderDestination {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  float: right; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar .ellipsis-1 {
+  -webkit-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.1s ease infinite;
+  animation: bouncing-dots 2.5s 0.1s ease infinite; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar .ellipsis-2 {
+  -webkit-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.2s ease infinite;
+  animation: bouncing-dots 2.5s 0.2s ease infinite; }
+
+.ng-pc-container .janrainSocialRoot .janrainSharingProgressBar .ellipsis-3 {
+  -webkit-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  -moz-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  -o-animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite;
+  animation: bouncing-dots 2.5s 0.30000000000000004s ease infinite; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareContent {
+  background: #f0f0f0;
+  color: #333;
+  border-top: 1px solid #dcdcdc;
+  -webkit-box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  -moz-box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  box-shadow: 0px 0px 6px rgba(220, 220, 220, 0.8);
+  margin: 0;
+  padding: 17px;
+  overflow: hidden; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareInputCounter {
+  text-align: right; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareInputCounterExcess {
+  color: #f00; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareTitle,
+.ng-pc-container .janrainSocialRoot .janrainShareDescription,
+.ng-pc-container .janrainSocialRoot .janrainShareUrl {
+  display: block;
+  margin-bottom: 10px; }
+
+.ng-pc-container .janrainSocialRoot[dir="rtl"] .janrainShareUrl {
+  text-align: right;
+  direction: ltr; }
+
+.ng-pc-container .janrainSocialRoot .janrainImageSupported .janrainShareImage {
+  display: block; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareImage {
+  display: none;
+  float: left;
+  height: 120px;
+  margin-right: 10px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareImage img {
+  max-height: 120px;
+  vertical-align: top; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareTextContainer {
+  padding-left: 10px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareTitle {
+  font-weight: bold;
+  margin: 0 0 10px; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareDescription {
+  font-size: 84%;
+  margin-bottom: 10px;
+  word-wrap: break-word; }
+
+.ng-pc-container .janrainSocialRoot .janrainShareUrl {
+  font-size: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+@media screen and (max-width: 480px) {
+  .ng-pc-container .janrainSocialRoot .janrainShareForm {
+    overflow-y: auto;
+    width: auto;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+    position: fixed;
+    top: 12px !important;
+    left: 12px !important;
+    right: 12px;
+    bottom: 12px; }
+  .ng-pc-container .janrainSocialRoot .janrainShareForm:before,
+  .ng-pc-container .janrainSocialRoot .janrainShareForm:after {
+    border: 0;
+    margin: 0;
+    display: none; }
+  .ng-pc-container .janrainSocialRoot .janrainShareForm > textarea,
+  .ng-pc-container .janrainSocialRoot .janrainShareForm > input,
+  .ng-pc-container .janrainSocialRoot .janrainShareForm > button {
+    margin-top: 4px;
+    margin-bottom: 4px; }
+  .ng-pc-container .janrainSocialRoot .janrainImageSupported .janrainShareTextContainer {
+    position: absolute;
+    bottom: 17px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 4px 0; }
+  .ng-pc-container .janrainSocialRoot .janrainShareTextContainer {
+    bottom: 0px;
+    padding-left: 0; }
+  .ng-pc-container .janrainSocialRoot .janrainShareContent {
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0;
+    height: auto; }
+  .ng-pc-container .janrainSocialRoot .janrainShareContent .janrainShareImage {
+    float: none;
+    line-height: 0px;
+    overflow: hidden;
+    border-right: none;
+    margin-right: 0px;
+    text-align: center;
+    min-height: 170px;
+    margin: 0; }
+  .ng-pc-container .janrainSocialRoot .janrainShareContent .janrainShareImage img {
+    max-height: initial;
+    width: 100%; }
+  .ng-pc-container .janrainSocialRoot .janrainShareContent .janrainShareTitle,
+  .ng-pc-container .janrainSocialRoot .janrainShareContent .janrainShareDescription,
+  .ng-pc-container .janrainSocialRoot .janrainShareContent .janrainShareUrl {
+    padding: 0px 10px;
+    margin: 4px;
+    font-size: 80%; } }

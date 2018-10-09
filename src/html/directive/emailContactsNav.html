@@ -1,0 +1,58 @@
+<div class="visible-xs">
+  <div class="btn-group ng-pc-nav-btn-group" uib-dropdown>
+    <button type="button" class="btn btn-success form-control" uib-dropdown-toggle>
+      {{filterName}} <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" uib-dropdown-menu>
+      <li>
+        <a href="{{baseUrl}}#/email/compose">
+          <span translate="compose_message_label"></span>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="{{baseUrl}}#/email/message/draft/list">
+          <span class="badge">{{messageCounts.drafts}}</span>
+          <span translate="drafts_drafts_label"></span>
+        </a>
+      </li>
+      <li>
+        <a href="{{baseUrl}}#/email/message/sentMessage/list">
+          <span class="badge">{{messageCounts.sentMessages}}</span> 
+          <span translate="sent_sent_messages_label"></span>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li ng-repeat="group in contactGroups">
+        <a href="{{group.url}}">
+          <span class="badge">{{group.num}}</span>
+          {{group.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="hidden-xs">
+  <a class="btn btn-success form-control" href="{{baseUrl}}#/email/compose">
+    <span translate="compose_message_label"></span>
+  </a>
+  <div class="list-group ng-pc-nav-list-group">
+    <a ng-class="['list-group-item', {'active': $location.path == '/email/message/draft/list'}]" href="{{baseUrl}}#/email/message/draft/list">
+      <span class="badge">{{messageCounts.drafts}}</span> 
+      <span translate="drafts_drafts_label"></span>
+    </a>
+    <a ng-class="['list-group-item', {'active': $location.path == '/email/message/sentMessage/list'}]" href="{{baseUrl}}#/email/message/sentMessage/list">
+      <span class="badge">{{messageCounts.sentMessages}}</span> 
+      <span translate="sent_sent_messages_label"></span>
+    </a>
+  </div>
+  <div class="list-group ng-pc-nav-list-group">
+    <h3 class="list-group-item-heading">
+      <span translate="contacts_label"></span>
+    </h3>
+    <a ng-repeat="group in contactGroups" ng-class="['list-group-item', {'active': filter == group.id}]" href="{{group.url}}">
+      <span class="badge">{{group.num}}</span>
+      {{group.name}}
+    </a>
+  </div>
+</div>

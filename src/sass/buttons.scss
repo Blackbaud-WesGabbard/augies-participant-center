@@ -1,0 +1,30 @@
+.ng-pc-container,
+.ng-pc-modal {
+  .btn, 
+  a.btn {
+    &, 
+    &:link, 
+    &:visited {
+      background: none;
+      border: 1px solid transparent;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 6px 12px;
+    }
+  }
+  
+  .btn-primary, 
+  a.btn-primary {
+    @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  }
+  
+  .btn-primary-inverted, 
+  a.btn-primary-inverted {
+    @include button-variant($btn-primary-bg, transparent, $btn-primary-border);
+  }
+
+  .btn-success, 
+  a.btn-success {
+    @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  }
+}

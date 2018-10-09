@@ -1,0 +1,34 @@
+<ul class="list-group">
+  <li class="list-group-item contact-row" ng-repeat="contact in contacts">
+    <div class="clearfix">
+      <div class="contact-select pull-left">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="{{contact.id}}" ng-model="contact.selected" ng-click="toggleContact(contact.id)"> 
+            <a ng-if="selectContact" ng-click="selectContact(contact.id)">
+              <span ng-if="contact.firstName">
+                {{contact.firstName}}{{contact.lastName ? ' ' + contact.lastName : ''}}{{contact.email ? ' &lt;' + contact.email + '&gt;' : ''}}
+              </span>
+              <span ng-if="!contact.firstName">
+                &lt;{{contact.email}}&gt;
+              </span>
+            </a>
+            <span ng-if="!selectContact">
+              <span ng-if="contact.firstName">
+                {{contact.firstName}}{{contact.lastName ? ' ' + contact.lastName : ''}}{{contact.email ? ' &lt;' + contact.email + '&gt;' : ''}}
+              </span>
+              <span ng-if="!contact.firstName">
+                &lt;{{contact.email}}&gt;
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+      <div class="contact-action pull-right">
+        <a ng-click="deleteContact(contact.id)">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a>
+      </div>
+    </div>
+  </li>
+</ul>

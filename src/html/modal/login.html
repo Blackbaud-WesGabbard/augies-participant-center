@@ -1,0 +1,39 @@
+<div ng-controller="LoginCtrl">
+  <form name="consLoginForm" method="POST" novalidate ng-submit="submitLogin()">
+    <div class="modal-header">
+      <h2 class="modal-title">
+        <span translate="session_timeout_log_back_in"></span>
+      </h2>
+    </div>
+    <div class="modal-body">
+      <div uib-alert class="alert-danger" ng-if="loginError">
+        {{loginError}}
+      </div>
+      <div uib-alert class="alert-warning">
+        <span translate="login_required"></span>
+      </div>
+      <div class="form-group">
+        <label for="login-user-name">
+          <span translate="user_name">
+        </label>
+        <input type="text" class="form-control" name="user_name" id="login-user-name" ng-model="consLogin.user_name" autocorrect="off" autocapitalize="off" spellcheck="false">
+      </div>
+      <div class="form-group">
+        <label for="login-user-password">
+          <span translate="password"></span>
+        </label>
+        <input type="password" class="form-control" name="password" id="login-user-password" ng-model="consLogin.password">
+      </div>
+      <!-- TODO: remember me -->
+    </div>
+    <div class="modal-footer">
+      <div class="clearfix">
+        <div class="pull-right">
+          <button type="submit" class="btn btn-primary text-uppercase">
+            <span translate="login_button_label"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

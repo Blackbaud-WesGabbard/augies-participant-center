@@ -1,0 +1,17 @@
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="gift in gifts">
+    <div class="gift-data gift-donor-name">
+      <span ng-if="!gift.name.first && !gift.name.last">{{gift.recognitionName}}</span>
+      <span ng-if="gift.name.first && gift.name.last">{{gift.name.first}} {{gift.name.last}}</span>
+    </div>
+    <div class="gift-data gift-donor-date">{{gift.date | date : 'MMM d'}}</div>
+    <div class="gift-data gift-donor-amount">{{gift.giftAmount / 100 | currency}}</div>
+    <div class="gift-data gift-donor-action" ng-if="showActions">
+      <a class="icon-btn icon-btn-gray" ng-if="gift.acknowledged == 'false'" ng-click="acknowledgeGift({ contactId: gift.contactId})" uib-tooltip="{{giftActionLabels.acknowledgeGift}}" tooltip-placement="'auto bottom'"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+      <a class="icon-btn icon-btn-primary" ng-if="gift.acknowledged == 'false'" ng-click="thankDonor({ contact: gift.contact})" uib-tooltip="{{giftActionLabels.thankDonor}}" tooltip-placement="'auto bottom'"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a class="icon-btn icon-btn-gray" ng-if="gift.acknowledged == 'true'" uib-tooltip="{{giftActionLabels.noAction}}" tooltip-placement="'auto bottom'"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+      <a class="icon-btn icon-btn-gray" ng-click="deleteGift({ giftId: gift.id })" ng-if="gift.isOnlineGift != 'true' && gift.confirmed == 'false'" uib-tooltip="{{giftActionLabels.deleteGift}}" tooltip-placement="'auto bottom'"><i class="fa fa-trash" aria-hidden="true"></i></a>
+    </div>
+    <div class="gift-data gift-donor-note" ng-if="gift.giftMessage">{{gift.giftMessage}}</div>
+  </li>
+</ul>

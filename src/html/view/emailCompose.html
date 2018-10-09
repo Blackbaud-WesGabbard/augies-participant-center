@@ -1,0 +1,87 @@
+<div cg-busy="emailPromises">
+  <div class="row">
+    <div class="col-sm-3">
+      <email-contacts-nav refresh-contacts="refreshContactsNav" refresh-messages="refreshContactsNav"></email-contacts-nav>
+    </div>
+    <div class="col-sm-9">
+      <div uib-alert class="alert-danger" ng-if="sendEmailError">
+        {{sendEmailError}}
+      </div>
+      <div uib-alert class="alert-success" ng-if="sendEmailSuccess">
+        <span translate="message_send_success"></span>
+      </div>
+      <div uib-alert class="alert-danger" ng-if="saveDraftError" dismiss-on-timeout="5000" close="resetEmailComposeAlerts()">
+        {{saveDraftError}}
+      </div>
+      <div uib-alert class="alert-success" ng-if="saveDraftSuccess" dismiss-on-timeout="5000" close="resetEmailComposeAlerts()">
+        <span translate="message_template_save_success"></span>
+      </div>
+      <div uib-alert class="alert-danger" ng-if="deleteDraftError" dismiss-on-timeout="5000" close="resetEmailComposeAlerts()">
+        {{deleteDraftError}}
+      </div>
+      <div uib-alert class="alert-success" ng-if="deleteDraftSuccess" dismiss-on-timeout="5000" close="resetEmailComposeAlerts()">
+        <span translate="message_template_delete_success"></span>
+      </div>
+      <form name="emailComposerForm" method="POST" novalidate ng-submit="previewEmail()">
+        <div class="form-group">
+          <label class="sr-only"><span translate="compose_to_label"></span></label>
+          <textarea class="form-control" placeholder="Recipients (separate multiple email addresses with a comma)" autocorrect="off" autocapitalize="off" spellcheck="false" ng-model="emailComposer.recipients"></textarea>
+        </div>
+        <div class="form-group" ng-if="suggestedMessages.length > 0">
+          <select class="form-control" ng-model="emailComposer.suggested_message_id" ng-change="loadSuggestedMessage()" ng-options="suggestedMessage.messageId as suggestedMessage.name group by suggestedMessage.messageGroup for suggestedMessage in suggestedMessages track by suggestedMessage.messageId">
+            <option value="">Choose a sample message</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="sr-only"><span translate="compose_subject_label"></span></label>
+          <input type="text" class="form-control" placeholder="Subject" autocorrect="on" autocapitalize="on" spellcheck="true" ng-model="emailComposer.subject">
+        </div>
+        <div class="form-group">
+          <div class="checkbox" ng-if="personalizedSalutationEnabled">
+            <label>
+              <input type="checkbox" ng-model="emailComposer.prepend_salutation"> 
+              {{composeSalutationHintLabel}}
+            </label>
+            <a class="help-link" target="_blank" ng-href="{{personalizedSalutationHintUrl}}" ng-if="composeSalutationWhatsThis">{{composeSalutationWhatsThis}}</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <div text-angular name="message_body" ng-model="emailComposer.message_body" ta-toolbar="{{textEditorToolbar}}" ta-text-editor-class="border-around" ta-html-editor-class="border-around"></div>
+        </div>
+        <div class="form-group stationery-select" ng-if="selectStationeryEnabled">
+          <h5 translate="compose_current_layout_label"></h5>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6" ng-repeat="layout in stationeryChoices track by layout.layoutId">
+              <label ng-class="['stationery-option', {'stationery-selected': emailComposer.layout_id == layout.layoutId}]">
+                <input class="stationery-input" type="radio" name="layout_id" ng-model="emailComposer.layout_id" ng-value="layout.layoutId" ng-change="selectStationery()" />
+                <img class="stationery-image" ng-src="{{layout.thumbnailUrl}}" />
+                <span class="stationery-name">{{layout.name}}</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group clearfix">
+          <div class="pull-left">
+            <button type="submit" class="btn btn-primary text-uppercase">
+              <span translate="compose_preview_button_label"></span> &amp; <span translate="compose_send_button_label"></span>
+            </button>
+          </div>
+          <div class="pull-right" ng-if="emailComposer.save_template_id">
+            <a class="btn btn-primary text-uppercase" ng-click="deleteTemplate()">
+              <span translate="compose_delete_button_label"></span>
+            </a>
+            <span class="spacer">&nbsp;</span>
+            <a class="btn btn-primary text-uppercase" ng-click="updateTemplate()">
+              <span translate="compose_update_template_button_label"></span>
+            </a>
+          </div>
+          <div class="pull-right" ng-if="!emailComposer.save_template_id">
+            <a class="btn btn-primary text-uppercase" ng-click="saveAsTemplate()">
+              <span translate="compose_save_template_button_label"></span>
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

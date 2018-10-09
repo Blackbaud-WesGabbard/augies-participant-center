@@ -1,0 +1,26 @@
+.ng-pc-container {
+  .what-next-list {
+    .what-next-icon, .what-next-message-container {
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    .what-next-icon {
+      max-width: 10%;
+    }
+    .what-next-message-container {
+      max-width: 86%;
+      margin-left: 10px;
+      .what-next-header {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        padding-bottom: 5px;
+        display: block;
+      }
+      .what-next-message {
+        display: block;
+      }
+    }
+  }
+}

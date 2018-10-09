@@ -1,0 +1,13 @@
+.ng-pc-container {
+  .list-group.team-search-results {
+    .list-group-item.team-search-result-row {
+      div.team-search-result-info {
+        width: 80%;
+        display: inline-block;
+      }
+      button.join-team-button {
+        float: right;
+      }
+    }
+  }
+}

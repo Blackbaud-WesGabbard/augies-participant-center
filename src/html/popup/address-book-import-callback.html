@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Import Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+    </style>
+    
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/luminateExtend/1.7.1/luminateExtend.min.js"></script>
+  </head>
+  <body>
+    <p><img src="../../../../images/indicator.gif" alt=""> Loading, please wait...</p>
+    
+    <script>
+      luminateExtend({
+        apiKey: window.opener.luminateExtend.global.apiKey, 
+        path: window.opener.luminateExtend.global.path
+      });
+      
+      var currentUrl = window.location.href, 
+      queryString = currentUrl.indexOf('?') === -1 ? undefined : decodeURIComponent(currentUrl.split('?')[1]), 
+      getQueryParameter = function(paramName) {
+        if(!queryString || queryString.indexOf(paramName + '=') === -1) {
+          return undefined;
+        }
+        else {
+          return queryString.split(paramName + '=')[1].split('&')[0];
+        }
+      }, 
+      importJobId = getQueryParameter('import_job_id'), 
+      oauthToken = getQueryParameter('oauth_token'), 
+      oauthVerifier = getQueryParameter('oauth_verifier'), 
+      codeParam = getQueryParameter('code');
+      
+      luminateExtend.api({
+        api: 'addressbook', 
+        useHTTPS: true, 
+        requiresAuth: true, 
+        requestType: 'POST', 
+        data: 'method=addressBookImportOAuthCallback' + 
+              (importJobId ? ('&import_job_id=' + importJobId) : '') + 
+              (oauthToken ? ('&oauth_token=' + oauthToken) : '') + 
+              (oauthVerifier ? ('&oauth_verifier=' + oauthVerifier) : '') + 
+              (codeParam ? ('&code=' + codeParam) : ''), 
+        callback: {
+          error: function(response) {
+          }, 
+          success: function() {
+            window.opener.trPcContactImport.buildAddressBookImport(importJobId);
+            window.close();
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

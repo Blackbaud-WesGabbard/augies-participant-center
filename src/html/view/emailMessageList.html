@@ -1,0 +1,30 @@
+<div cg-busy="emailPromises">
+  <div class="row">
+    <div class="col-sm-3">
+      <email-contacts-nav refresh-contacts="" refresh-messages=""></email-contacts-nav>
+    </div>
+    <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            {{messageTypeName}}
+          </h2>
+        </div>
+        <div class="panel-body" ng-if="emailMessages.totalNumber == 0">
+          <div ng-if="messageType == 'draft'">
+            <span translate="drafts_no_drafts_found"></span>
+          </div>
+          <div ng-if="messageType == 'sentMessage'">
+            <span translate="sent_no_sent_messages_found"></span>
+          </div>
+        </div>
+        <email-message-list messages="emailMessages.messages" select-message="selectMessage" delete-message="deleteMessage" ng-if="emailMessages.totalNumber > 0"></email-message-list>
+        <div class="panel-footer" ng-if="emailMessages.totalNumber > 10">
+          <nav class="panel-pagination">
+            <ul uib-pagination items-per-page="10" total-items="emailMessages.totalNumber" max-size="10" ng-model="emailMessages.page" ng-change="getEmailMessages()"></ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

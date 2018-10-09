@@ -1,0 +1,63 @@
+.ng-pc-container,
+.ng-pc-modal {
+  ul {
+    margin-left: 0;
+  }
+
+  .list-group-item-heading {
+    font-size: 18px;
+  }
+  
+  .list-group-item {
+    padding: 15px;
+    .checkbox {
+      margin: 0;
+    }
+    .badge {
+      border-radius: 3px;
+    }
+  }
+  
+  a.list-group-item {
+    &:not(.active) {
+      &, 
+      &:link {
+        color: #555555;
+        
+        .badge {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.ng-pc-nav-list-group {
+  .list-group-item-heading {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .list-group-item {
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    
+    &:first-child {
+      border-top: 0;
+      border-radius: 0;
+    }
+    
+    &:last-child {
+      border-radius: 0;
+    }
+  }
+}
+
+.btn + .ng-pc-nav-list-group {
+  margin: 12px 0 0;
+}
+
+.ng-pc-nav-list-group + .ng-pc-nav-list-group {
+  margin: 12px 0 0;
+}

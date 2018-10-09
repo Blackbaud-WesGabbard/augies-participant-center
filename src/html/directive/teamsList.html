@@ -1,0 +1,23 @@
+<ul class="list-group team-search-results">
+  <li class="list-group-item team-search-result-row" ng-repeat="team in teams">
+    <div class="team-search-result-info" data-team-id="{{team.id}}" data-requires-password="{{team.requiresPassword}}">
+      <h5 class="list-group-item-heading team-name">
+        <a ng-href="{{team.teamPageURL}}" target="_blank">
+          {{team.name}}
+        </a>
+      </h5>
+      <div class="list-group-item-text team-captain" ng-if="team.isCaptainAnon == 'false'">
+        <span translate="manage_membership_search_result_captain_label" class="captain-label"></span>
+        <span class="captain-name" ng-if="team.captainScreenname && team.captainScreenname.length > 0">{{team.captainScreenname}}</span>
+        <span class="captain-name" ng-if="!team.captainScreenname || team.captainScreenname.length == 0">{{team.captainFirstName}} {{team.captainLastName}}</span>
+      </div>
+      <div class="list-group-item-text team-company" ng-if="team.companyId && team.companyId != '-1'">
+        <span translate="manage_membership_search_result_company_label" class="company-label"></span>
+        <span class="company-name">{{team.companyName}}</span>
+      </div>
+    </div>
+    <button class="join-team-button btn btn-primary" ng-click="joinTeam({ teamId: team.id, requiresPassword: team.requiresPassword, teamPassword: null })">
+      <span translate="manage_membership_join_team"></span>
+    </button>
+  </li>
+</ul>

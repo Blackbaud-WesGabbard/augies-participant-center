@@ -1,0 +1,27 @@
+.ng-pc-container {
+  .list-group-item {
+    .gift-data {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+    }
+    .gift-donor-name {
+      width: 50%;
+    }
+    .gift-donor-date,
+    .gift-donor-amount {
+      width: 20%;
+      text-align: center;
+    }
+    .gift-donor-action {
+      width: 10%;
+      text-align: right;
+      .icon-btn {
+        padding-left: 2px;
+      }
+    }
+    .gift-donor-note {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.ng-pc-container, .ng-pc-modal {
+  .panel-pagination {
+    text-align: center;
+    height: 36px;
+    
+    .pagination {
+      margin: 0;
+    }
+    .num-per-page-select-container {
+      float: right;
+
+      .num-per-page-select-label {
+        margin-right: 5px;
+      }
+      .num-per-page-select {
+        position: relative;
+        padding: 6px 12px;
+        margin-left: -1px;
+        line-height: 1.42857143;
+        color: #337ab7;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        height: 36px;
+      }
+    }
+  }
+  
+  .pagination {
+    > .disabled {
+      > a {
+        &, 
+        &:link, 
+        &:hover, 
+        &:focus {
+          color: #777777;
+        }
+      }
+    }
+    
+    > .active {
+      > a {
+        &, 
+        &:link, 
+        &:hover, 
+        &:focus {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

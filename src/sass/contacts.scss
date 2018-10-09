@@ -1,0 +1,95 @@
+.ng-pc-container,
+.ng-pc-modal {
+  .contacts-list__actions {
+    margin: 0 0 5px;
+    
+    .contacts-list__actions-selected {
+      float: left;
+      
+      .btn {
+        padding: 10px;
+        margin: 0 6px 10px 0;
+      }
+    }
+    
+    .contacts-list__actions-manage {
+      float: right;
+      
+      .btn {
+        padding: 10px;
+        margin: 0 0 10px 6px;
+      }
+    }
+  }
+
+  .import-contacts__list-wrap {
+    max-height: 250px;
+    overflow-y: scroll;
+    
+    .list-group-item {
+      border-radius: 0;
+      
+      .checkbox {
+        margin: 0;
+      }
+    }
+  }
+
+  .contact-edit-link {
+    float:right;
+  }
+  .contact-details {
+    .contact-details-row {
+      width: 100%;
+    }
+  }
+  .contact-stats {
+    .contact-stats-label,
+    .contact-stats-value,
+    .contact-stats-date {
+      width: 100%;
+      text-align: center;
+    }
+    .contact-stats-donations {
+      width: 100%;
+      .contact-stats-amount-raised,
+      .contact-stats-previous-amount-raised,
+      .contact-stats-acknowledged {
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+      }
+    }
+    .contact-stats-emails {
+      width: 100%;
+      .contact-stats-messages-sent,
+      .contact-stats-messages-opened,
+      .contact-stats-page-visits {
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+      }
+    }
+  }
+
+  .form-contact-search {
+    margin-bottom: 0;
+    position: relative;
+    top: -5px;
+    float: right;
+
+    .input-group {
+      .form-control.input-contact-search {
+        font-size: 13px;
+        line-height: 13px;
+        height: auto;
+      }
+      .input-group-btn .btn.btn-contact-search {
+        font-size: 13px;
+        line-height: 13px;
+        border: 1px solid #d9d6cf;
+        height: 29px;
+      }
+    }
+  }
+}

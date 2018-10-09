@@ -1,0 +1,22 @@
+.ng-pc-modal {
+  .modal-header__btns {
+    float: right;
+    
+    .btn {
+      margin: 0 0 0 6px;
+    }
+  }
+
+  .modal-header__btns--block-xxs {
+    @media (max-width: 359px) {
+      float: none;
+      display: block;
+      text-align: center;
+      margin: 0 0 18px 0;
+      
+      .btn {
+        margin: 0 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.ng-pc-container {
+  .media-left {
+    .media-object {
+      max-width: 75px;
+      
+      @media(min-width: 360px) {
+        max-width: 100px;
+      }
+      
+      @media(min-width: $screen-md-min) {
+        max-width: 150px;
+      }
+    }
+  }
+  
+  .media-heading {
+    font-size: 18px;
+  }
+}

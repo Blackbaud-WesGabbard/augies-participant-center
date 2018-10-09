@@ -1,0 +1,39 @@
+<form ng-submit="updatePageUrl('Participant')">
+  <div class="modal-header">
+    <h2 class="modal-title">
+      <span translate="personal_page_shortcut_edit"></span>
+    </h2>
+  </div>
+  <div class="modal-body">
+    <div uib-alert class="alert-success" ng-if="editPageUrlOptions.updateUrlSuccess" dismiss-on-timeout="5000" close="closeUrlAlerts(true)">
+      <span translate="shortcut_save_success"></span>
+    </div>
+    <div uib-alert class="alert-danger" ng-if="editPageUrlOptions.updateUrlFailure" dismiss-on-timeout="5000" close="closeUrlAlerts(false)">
+      {{editPageUrlOptions.updateUrlFailureMessage}}
+    </div>
+    <div uib-alert class="alert-warning" ng-if="participantShortcut.hint">
+      {{participantShortcut.hint}}
+    </div>
+    <div class="form-group">
+      <label for="shortcut_text" class="sr-only"><span translate="personal_page_shortcut_edit"></span></label>
+      <div class="input-group">
+        <span class="input-group-addon">{{participantShortcut.prefix}}</span>
+        <input type="text" id="shortcut_text" class="form-control" ng-model="editPageUrlOptions.updateUrlInput" aria-label="{{ 'personal_page_shortcut_edit' | translate }}" required min-length="5">
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <div class="clearfix">
+      <div class="pull-left">
+        <button type="button" class="btn btn-default" ng-click="cancelEditPageUrl()">
+          <span translate="class_cancel_link"></span>
+        </button>
+      </div>
+      <div class="pull-right">
+        <button type="submit" class="btn btn-primary">
+          <span translate="personal_page_shortcut_save"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+<form>

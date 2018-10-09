@@ -1,0 +1,17 @@
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="contact in contacts">
+    <div class="clearfix">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="{{contact.id}}" ng-checked="contact.selected" ng-click="toggleContact(contact)"> 
+          <span ng-if="contact.firstName">
+            {{contact.firstName}}{{contact.lastName ? ' ' + contact.lastName : ''}}{{contact.email ? ' &lt;' + contact.email + '&gt;' : ''}}
+          </span>
+          <span ng-if="!contact.firstName">
+            &lt;{{contact.email}}&gt;
+          </span>
+        </label>
+      </div>
+    </div>
+  </li>
+</ul>

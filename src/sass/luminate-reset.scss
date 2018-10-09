@@ -1,0 +1,24 @@
+.ng-pc-container {
+  p, 
+  ol, 
+  ul, 
+  li, 
+  table, 
+  tr, 
+  th, 
+  td, 
+  .Explicit {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  a:link {
+    color: $link-color;
+    &.help-link {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: smaller;
+      text-decoration: underline;
+    }
+  }
+}
